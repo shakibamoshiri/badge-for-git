@@ -12,12 +12,12 @@
 <hr>
 
 <h1>What is there?</h1>
-This is an application based on my previous app <a hfer="https://github.com/k-five/red-cursor">red-cursor<a/> which helps you generate some badges  
+This is an application based on my previous app <a href="https://github.com/k-five/red-cursor">red-cursor<a/> which helps you generate some badges  
 that you can use them on your **README.md** file  
 <hr>
 
 <h1>Why is that?</h1>  
-In **January 18th 2018** in the [shields.io chat-room](https://discord.gg/HjJCwm5)  
+In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io chat-room</a>
 > Hi. Is there any one help me about dynamic badge?  I always get: invalid resource ...
 
 
