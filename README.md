@@ -77,122 +77,121 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
       <th>separation</th>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/1.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/1.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
-      <td>2</td>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/2.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/2.svg" /></td>
       <td> </td>
       <td>Yes</td>
       <td>Yes</td>
       <td>No</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/3.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/3.svg" /></td>
       <td> </td>
       <td>Yes</td>
       <td>Yes</td>
       <td>No</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/4.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/4.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/5.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/5.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/6.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/6.svg" /></td>
       <td> </td>
       <td>Yes</td>
       <td>Yes</td>
       <td>No</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/7.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/7.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/8.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/8.svg" /></td>
       <td> </td>
       <td>Yes</td>
       <td>Yes</td>
       <td>No</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/9.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/9.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/10.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/10.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/11.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/11.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/12.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/12.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/13.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/13.svg" /></td>
       <td> </td>
       <td>Yes</td>
       <td>Yes</td>
       <td>No</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/14.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/14.svg" /></td>
       <td> </td>
       <td>Yes</td>
       <td>Yes</td>
       <td>No</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/15.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/15.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/16.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/16.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/17.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/17.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/18.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/18.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/19.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/19.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/20.svg" /></td>
+      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/20.svg" /></td>
       <td>No</td>
       <td>No</td>
       <td>Yes</td>
