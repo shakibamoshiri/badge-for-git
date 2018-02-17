@@ -18,6 +18,7 @@ that you can use them on your **README.md** file
 
 <h1>Why is that?</h1>  
 In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io chat-room</a>
+
 > Hi. Is there any one help me about dynamic badge?  I always get: invalid resource ...
 
 
@@ -37,7 +38,7 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 
 
 <h1>What should I do?</h1>
-You will open [the app](https://k-five.github.io/badge-for-git/), try generating a badge based on a style that is available and its command.  
+You will open <a href="https://k-five.github.io/badge-for-git/">the app</a>, try generating a badge based on a style that is available and its command.  
 For example: `badge 20 "made-with:for-you"`  based on style 20 will generate a SVG file and you  
 will see it on the screen as well. Meanwhile the last SVG file you have created, its **source-code**  
 will be copied to your **clipboard** and that is it. It is ready to use.  
