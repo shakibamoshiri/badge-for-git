@@ -12,7 +12,7 @@
 <hr>
 
 <h1>What is there?</h1>
-This is an application based on my previous app [red-cursor](https://github.com/k-five/red-cursor) which helps you generate some badges  
+This is an application based on my previous app <a hfer="https://github.com/k-five/red-cursor">red-cursor<a/> which helps you generate some badges  
 that you can use them on your **README.md** file  
 <hr>
 
@@ -60,7 +60,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/bfg.step.5.png" /></td>
 
 ### step 6 add a link to it in your README file:  
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/bfg.step.5.png" /></td>
+<img src="https://github.com/k-five/badge-for-git/blob/master/res/bfg.step.6.png" /></td>
 
 ### and there it the result:  
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/for-you.svg" /></td>
