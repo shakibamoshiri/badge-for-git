@@ -215,8 +215,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.2.svg" />
 
 <h1>prefix/suffix separation</h1>
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.1.svg" />
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.2.svg" />
-
+<img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.1.svg" />
+<img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.2.svg" />
 
 <h1>theme</h1>
