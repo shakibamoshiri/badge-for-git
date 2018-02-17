@@ -219,3 +219,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.2.svg" />
 
 <h1>theme</h1>
+<img src="https://github.com/k-five/badge-for-git/blob/master/res/G.svg" />
+<img src="https://github.com/k-five/badge-for-git/blob/master/res/S.svg" />
+<img src="https://github.com/k-five/badge-for-git/blob/master/res/T.svg" />
+<img src="https://github.com/k-five/badge-for-git/blob/master/res/F.svg" />
