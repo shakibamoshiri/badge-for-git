@@ -63,7 +63,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 ### step 6 add a link to it in your README file:  
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/bfg.step.6.png" /></td>
 
-### and there it the result:  
+### and here it the result:  
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/for-you.svg" /></td>
 
 
@@ -199,3 +199,26 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
       <td>No</td>
     </tr>
 </table>
+
+
+<h1>unlimited/flexible suffix repetition (regular or empty)</h1>
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.1.svg" />
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.2.svg" />
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.3.svg" />
+
+<h1>unlimited/flexible change-size</h1>
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.1.svg" />
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.2.svg" />
+
+<h1>unrestricted background/foreground-color</h1>
+<img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.3.svg.svg" />
+
+<h1>prefix/suffix separation</h1>
+<img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.1.svg" />
+<img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.2.svg" />
+
+<h1>unlimited new ideas</h1>
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/change-size.1.svg" />
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/change-size.2.svg" />
+
+<h1>theme</h1>
