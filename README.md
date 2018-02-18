@@ -5,6 +5,13 @@
 
 <hr>
 
+<img src="res/type.svg" />
+<img src="res/born.svg" />
+<img src="res/name.svg" />
+<img src="res/support.svg" />
+
+<hr>
+
 <h1>
   <a href="https://k-five.github.io/badge-for-git/" >start creating</a>
 </h1>
