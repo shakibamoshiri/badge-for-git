@@ -219,8 +219,12 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 
 <h1>unlimited/flexible change-size</h1>
 
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/change-size.1.svg" />
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/change-size.2.svg" />
+ - `bfs 5`  
+ - `badge 20 'made-with:for-you'`  
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/change-size.1.svg" />  
+ - `bfs 99`  
+ - `badge 20 'made-with:for-you'`  
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/change-size.2.svg" />  
 
 <h1>unrestricted background/foreground-color</h1>
 
