@@ -12,11 +12,13 @@
 <hr>
 
 <h1>What is there?</h1>
+
 This is an application based on my previous app <a href="https://github.com/k-five/red-cursor">red-cursor<a/> which helps you generate some badges  
 that you can use them on your **README.md** file  
 <hr>
 
 <h1>Why is that?</h1>  
+
 In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io chat-room</a>
 
 > Hi. Is there any one help me about dynamic badge?  I always get: invalid resource ...
@@ -38,6 +40,7 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 
 
 <h1>What should I do?</h1>
+
 You will open <a href="https://k-five.github.io/badge-for-git/">the app</a>, try generating a badge based on a style that is available and its command.  
 For example: `badge 20 "made-with:for-you"`  based on style 20 will generate a SVG file and you  
 will see it on the screen as well. Meanwhile the last SVG file you have created, its **source-code**  
@@ -202,25 +205,30 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 
 
 <h1>unlimited/flexible suffix repetition (regular or empty)</h1>
+
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.1.svg" />
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.2.svg" />
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.3.svg" />
 
 <h1>unlimited/flexible change-size</h1>
+
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/change-size.1.svg" />
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/change-size.2.svg" />
 
 <h1>unrestricted background/foreground-color</h1>
+
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.1.svg" />
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.2.svg" />
 
 <h1>prefix/suffix separation</h1>
+
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.1.svg" />
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.2.svg" />
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.3.svg" />
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.4.svg" />
 
 <h1>theme</h1>
+
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/G.svg" />
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/S.svg" />
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/T.svg" />
