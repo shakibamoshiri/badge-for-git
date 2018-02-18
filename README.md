@@ -45,7 +45,7 @@ You will open <a href="https://k-five.github.io/badge-for-git/">the app</a>, try
 For example: `badge 20 "made-with:for-you"`  based on style 20 will generate a SVG file and you  
 will see it on the screen as well. Meanwhile the last SVG file you have created, its **source-code**  
 will be copied to your **clipboard** and that is it. It is ready to use.  
-Then you can go to your own repository and create a new file with `svg. extension. like: `for-you.svg`  
+Then you can go to your own repository and create a new file with `svg` extension. like: `for-you.svg`  
 Paste the code there and save it. It is ready to use on/in your **README.md** file.  
 
 ### step 1 generate code:  
@@ -231,7 +231,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `badge 7 '#CB0000:#434343' #CB0000:#434343`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.1.svg" />
  - `BTC=#FF0`
- - `badge 7 '#CB0000:#434343:and text colro is #FF0'
+ - ``badge 7 '#CB0000:#434343:and text colro is #FF0'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.2.svg" />
 
 <h1>prefix/suffix separation</h1>
@@ -254,21 +254,25 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 <h3>github (default)</h3>
 
  - `bt G`
+ - `badge 9 'theme:G:github'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/G.svg" />
 
 <h3>Stack-overflow</h3>
 
  - `bt S`
+ - `badge 9 'theme:S:stack-overflow'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/S.svg" />
 
 <h3>Twitter</h3>
 
  - `bt T`
+ - `badge 9 'theme:T:twitter'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/T.svg" />
 
 <h3>Facebook</h3>
 
  - `bt F`
+ - `badge 9 'theme:F:facebook'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/F.svg" />
  
  
