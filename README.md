@@ -229,7 +229,24 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 
 <h1>theme</h1>
 
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/G.svg" />
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/S.svg" />
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/T.svg" />
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/F.svg" />
+<h3>github (default)</h3>
+
+ - `bt G`
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/G.svg" />
+
+<h3>Stack-overflow</h3>
+
+ - `bt S`
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/S.svg" />
+
+<h3>Twitter</h3>
+
+ - `bt T`
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/T.svg" />
+
+<h3>Facebook</h3>
+
+ - `bt F`
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/F.svg" />
+ 
+ 
