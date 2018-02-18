@@ -206,9 +206,16 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 
 <h1>unlimited/flexible suffix repetition (regular or empty)</h1>
 
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.1.svg" />
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.2.svg" />
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.3.svg" />
+ - `badge 17 'one:two:three:four:five:six:seven:eight:nine:ten'`
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.1.svg" />  
+ - `badge 17 'one::two::three::four::five'`
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.2.svg" />  
+ - `badge 17 '::::::::::::::::::::'`
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.3.svg" />  
+ - `'DLM=10'`
+ - `badge 17 '::::::::::::::::::::'`
+ - <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.4.svg" />  
+ 
 
 <h1>unlimited/flexible change-size</h1>
 
