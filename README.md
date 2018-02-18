@@ -103,6 +103,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 ### and here it the result:  
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/for-you.svg" /></td>
 
+<hr>
 
 <h1>diversity</h1>  
 
@@ -237,6 +238,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
     </tr>
 </table>
 
+<hr>
 
 <h1>unlimited/flexible suffix repetition (regular or empty)</h1>
 
@@ -250,6 +252,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `badge 17 '::::::::::::::::::::'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.4.svg" />  
  
+<hr>
 
 <h1>unlimited/flexible change-size</h1>
 
@@ -260,6 +263,8 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `badge 20 'made-with:for-you'`  
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/change-size.2.svg" />  
 
+<hr>
+
 <h1>unrestricted background/foreground-color</h1>
 
  - `badge 7 '#CB0000:#434343' #CB0000:#434343`
@@ -267,6 +272,8 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `BTC=#FF0`
  - `badge 7 '#CB0000:#434343:and text colro is #FF0'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.2.svg" />
+
+<hr>
 
 <h1>prefix/suffix separation</h1>
 
@@ -282,6 +289,8 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `DLM=5`  
  - `badge 12 'do::::::you::::::like::::::this'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.4.svg" />  
+
+<hr> 
 
 <h1>theme</h1>
 
