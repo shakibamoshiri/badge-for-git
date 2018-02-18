@@ -1,0 +1,161 @@
+html
+{
+    /* background-color: #2C001E; */
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'DejaVu Sans Mono', 'Source code variable', monospace;
+    font-size: 15px;
+    color: #FFF;
+}
+
+span
+{
+    float: left;
+    white-space: pre;
+}
+
+.cursor
+{
+    /* it is vital to move the cursor */
+    position: relative;
+    /* background-color: #F00; */
+    /* bottom: -1px */
+    /* color: #0FF; */
+    /* font-weight: bolder; */
+    /* using: cubic-bezier( 0, 1, 0, 1) is the best choice for a cursor  */
+    animation: cursor 1s cubic-bezier( 0, 1, 0, 1 ) infinite;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation: cursor 1s cubic-bezier( 0, 1, 0, 1 ) infinite;
+}
+/* .cursor-pause */
+/* { */
+/*     -webkit-animation-name: cursor; /\* Safari 4.0 - 8.0 *\/ */
+/*     -webkit-animation-delay: 2s; /\* Safari 4.0 - 8.0 *\/ */
+/*     animation-name: cursor; */
+/*     animation-delay: 2s; */
+/* } */
+/* .cursor-play */
+/* { */
+/*     animation: cursor 1s cubic-bezier( 0, 1, 0, 1 ) infinite; */
+/*     /\* Safari 4.0 - 8.0 *\/ */
+/*     -webkit-animation: cursor 1s cubic-bezier( 0, 1, 0, 1 ) infinite; */
+/* } */
+
+@-webkit-keyframes cursor
+{
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes cursor
+{
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#terminal
+{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+#clipboard
+{
+    position: fixed;
+    top: -100px;
+    right: 10px;
+}
+
+#screen-font-size
+{
+    position: absolute;
+    top: -100px;
+}
+
+#badge-font-size
+{
+    position: absolute;
+    top: -100px;
+}
+
+.row
+{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+.prompt
+{
+    /* color: #FF8C00; */
+    /* color: #0FF; */
+}
+/***************************************/
+svg
+{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.cwd
+{
+    fill: #0FF;
+}
+
+.path
+{
+    fill: #FFF;
+}
+/***************************************/
+.global_variable
+{
+    color: #FF0;
+}
+
+.readable
+{
+    color: #FFF;
+}
+
+.text
+{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+.executable
+{
+    color: #0F0;
+}
+
+.directory
+{
+    color: #09F;
+}
+
+.media
+{
+    color: #F0F;
+}
+
+.executable
+{
+    color: #0F0;
+}
+
+#guide
+{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 30px;
+    opacity: 0.5;
+}
