@@ -31,6 +31,14 @@
  
 <hr>
 
+<h1>if</h1>
+
+ 1. you are a user/member of **Stack-overflow** then first visit: [badge-for-stackoverflow](https://github.com/k-five/badge-for-stackoverflow)
+ 2. you are not familiar with **Hex Color** then read the **color-gudie** at the bottom or just visit [w3schools-color-ref](https://www.w3schools.com/colors/colors_fs595.asp)
+ 3. you have any qustions, suggestions, ideas, doubts, criticals they are welcome :) raise an issue 
+ 
+<hr>
+
 <h1>
   <a href="https://k-five.github.io/badge-for-git/" >start creating</a>
 </h1>
