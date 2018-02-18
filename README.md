@@ -231,7 +231,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `badge 7 '#CB0000:#434343' #CB0000:#434343`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.1.svg" />
  - `BTC=#FF0`
- - ``badge 7 '#CB0000:#434343:and text colro is #FF0'`
+ - `badge 7 '#CB0000:#434343:and text colro is #FF0'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.2.svg" />
 
 <h1>prefix/suffix separation</h1>
