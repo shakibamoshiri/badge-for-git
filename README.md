@@ -4,11 +4,16 @@
 </a>
 
 <hr>
+<h1>Hi</h1>
 
-<img src="res/type.svg" />
-<img src="res/born.svg" />
-<img src="res/name.svg" />
-<img src="res/support.svg" />
+ - `badge 6 'type:web-app'`
+ - <img src="res/type.svg" />
+ - `badge 6 'born:Date()'`
+ - <img src="res/born.svg" />
+ - `badge 6 'name:badge for git(hub)'`
+ - <img src="res/name.svg" />
+ - `badge 6 'support:all modern browsers'`
+ - <img src="res/support.svg" />
 
 <hr>
 
