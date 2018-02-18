@@ -17,6 +17,20 @@
 
 <hr>
 
+<h1>prerequisite</h1>
+ 
+ 1. A font of `monospace` family. Default is: `'DejaVu Sans Mono', 'Source code variable', monospace`
+ 2. Modern Browsers which can support **SVG** and **CSS Animation**, also **copy to clipboard**
+
+<hr>
+
+<h1>assumption</h1>
+
+  1. You are familiar with **Terminal** and with basic commands like: `ls`, `cd`, `cat`, etc.  
+  2. You know how to use/apply colors in **hax** value like: `#CB0000` or `#434343` 
+ 
+<hr>
+
 <h1>
   <a href="https://k-five.github.io/badge-for-git/" >start creating</a>
 </h1>
