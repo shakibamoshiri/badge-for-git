@@ -374,6 +374,31 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 <hr>
 <h1 id="color-guide">color guide</h1>
 
+This is a very compact and brief tutorial that you can quickly learn and memorize **hex-color-value**  
+important:  
+ 1. do NOT think of these values (e.g `#FF0000`) as a single number or single quantity  
+ 2. ignore the leading symbol `#`. It is not important  
+ 3. separate them in your mind and when you see `#FF0000`, think about `FF`, `00` and `00`  
+
+Now, since we can represent any colors by mixing the **red**, **green** and **blue** color, each of this value is  
+for representing one of these main color.  
+
+ - `FF,__,__` is for representing <img src="res/rgb/r/r-FF0000.svg" /> color or in binary `11111111,00000000,00000000` or in decimal `255,0,0`  
+ - `__,FF,__` is for representing <img src="res/rgb/g/g-00FF00.svg" /> color or in binary `00000000,11111111,00000000` or in decimal `0,255,0`  
+ - `__,__,FF` is for representing <img src="res/rgb/b/b-0000FF.svg" /> color or in binary `00000000,00000000,11111111` of in decimal `0,0,255`  
+
+You should (have to) memorize these three colors and the position of each, which comes in this order: `red,green,blue`  or `FF,FF,FF` or `255,255,255`  
+Now instead of trying to memorize a number from `0` to `255` or to `FF`, divide 255 by 25 which we get 10 value and then we can memorize these ten easily  
+Here is a table and these **10** values which I memorized them. Even if you forgot them you can use the hex value equivalent of
+
+ - (decimal) 0, 25, 50, 75, 100, 125, 150, 175, 200, 225 and 250 which we can round it up to 255 which can be  
+ - (hex    ) 0, 19, 32, 4B, 64,  7D,  96,  AF,  C8,  E1  and FA which we can round it up to FF  
+
+Now it is easier to memorize these ten other than 255 values.  
+
+ - need bright red, use `FF`
+ - need dark red use `C8` or `AF`
+
 <table>
   <tr>
     <th>hex (= decimal)</th>
@@ -460,6 +485,19 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
     <td><img src="res/rgb/m/m-FFFFFF.svg" /></td>
   </tr>
 </table>
+
+Even if these 10 values seem hard for you can divide 256 by **64** and only memorize 5 numbers  
+
+ - (decimal) 0, 64, 128, 192, 255  
+ - (hex    ) 0, 40, 80,  C0,  FF  
+
+if you are wonder/curious about other colors like **yellow** and **orange**, they are just created by combing these three **red**, **green** and **blue**  
+
+ - yellow: full-red and full-green = `#FFFF00`  
+ - cyan: full-green and full-blue = `#00FFFF`  
+ - purple: full-red and full-blue = `#FF00FF`  
+ - yellow-orange: full-red and half-green = `#FF8000` (= `FF` and `80` and `00`) or (= 255, 128, 0)  
+
 
 <hr>
 <h1 id="help">help</h1>
