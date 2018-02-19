@@ -17,7 +17,7 @@
 
 <hr>
 
-<h1>prerequisite</h1>
+<h1 id="prerequisite">prerequisite</h1>
  
  1. A font of `monospace` family. Default is: `'DejaVu Sans Mono', 'Source code variable', monospace`
  2. Modern Browsers which can support **SVG** and **CSS Animation**, also **copy to clipboard**
@@ -34,10 +34,9 @@
 <h1>if</h1>
 
  1. you are a user/member of **Stack-overflow** then first visit: [badge-for-stackoverflow](https://github.com/k-five/badge-for-stackoverflow)  
- 2. you are not familiar with **Hex Color** then read the **color-guide** at the bottom or just visit [w3schools-color-ref](https://www.w3schools.com/colors/colors_fs595.asp)  
+ 2. you are not familiar with **Hex Color** then read the <a href="#color-guide">color-guide</a> at the bottom or just visit [w3schools-color-ref](https://www.w3schools.com/colors/colors_fs595.asp)  
  3. you have any questions, suggestions, ideas, doubts, critical they are welcome :) raise an issue  
- 
-<hr>
+
 
 <h1>else</h1>
 
@@ -340,8 +339,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `badge 9 'theme:F:facebook'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/F.svg" />
 
-
-<har>
+<hr>
 <h1>troubleshooting and handy tips</h1>
 
 <h3>old browser</h3>
@@ -351,9 +349,9 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 
 <h3>inaccurate result</h3>
 
- - make sure you have the correct **font**, see the **prerequisite** section above  
+ - make sure you have the correct **font**, see the <a href="prerequisite">prerequisite</a> section above  
  - hit `alt-l` and open your console (in browser) and see if everything is logged appropriately or not  
- - do NOT zoom in/out, instead use `fs` (= font-size) and `bfs` (= badge-font-size) command  
+ - do NOT zoom in/out, instead use `fs` (= font-size) and `bfs` (= badge-font-size) commands  
  - change your browser. Different browsers handle character height/width differently.
 
 <h3>funky mouse movement</h3>
@@ -368,3 +366,10 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 
 <hr>
 <h1 id="help">help</h1>
+
+
+<hr>
+<h1 id="license">license</h1>
+
+badge-for-git copyright &copy; 2018 Shakiba
+MIT LICENSE
