@@ -358,6 +358,17 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 
  - change your browser. Different browsers handle character height/width differently.
 
+<h3>horizontal lines</h3>
+ - you can create horizontal lines with:  
+ - `badge 1 '::::::::::::::::::::::::::::::::::::::::'`  
+ - `badge 7 '::::::::::::::::::::::::::::::::::::::::'`  
+ - `badge 17 '::::::::::::::::::::::::::::::::::::::::'`  
+ - here is the result, (but do NOT do this) it is very inefficient.  Instead use `line` command.
+
+<img src="res/line-with-badge-1" />
+<img src="res/line-with-badge-7" />
+<img src="res/line-with-badge-17" />
+
 
 <hr>
 <h1 id="color-guide">color guide</h1>
