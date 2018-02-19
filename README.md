@@ -27,17 +27,19 @@
 <h1>assumption</h1>
 
   1. You are familiar with **Terminal** and with basic commands like: `ls`, `cd`, `cat`, etc.  
-  2. You know how to use/apply colors in **hax** value like: `#CB0000` or `#434343` 
+  2. You know how to use/apply colors in **Hex** value like: `#CB0000` or `#434343` 
  
 <hr>
 
 <h1>if</h1>
 
- 1. you are a user/member of **Stack-overflow** then first visit: [badge-for-stackoverflow](https://github.com/k-five/badge-for-stackoverflow)
- 2. you are not familiar with **Hex Color** then read the **color-gudie** at the bottom or just visit [w3schools-color-ref](https://www.w3schools.com/colors/colors_fs595.asp)
- 3. you have any qustions, suggestions, ideas, doubts, criticals they are welcome :) raise an issue 
+ 1. you are a user/member of **Stack-overflow** then first visit: [badge-for-stackoverflow](https://github.com/k-five/badge-for-stackoverflow)  
+ 2. you are not familiar with **Hex Color** then read the **color-guide** at the bottom or just visit [w3schools-color-ref](https://www.w3schools.com/colors/colors_fs595.asp)  
+ 3. you have any questions, suggestions, ideas, doubts, critical they are welcome :) raise an issue  
  
 <hr>
+
+<h1>else</h1>
 
 <h1>
   <a href="https://k-five.github.io/badge-for-git/" >start creating</a>
@@ -289,13 +291,14 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `badge 7 '#CB0000:#434343' #CB0000:#434343`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.1.svg" />
  - `BTC=#FF0`
- - `badge 7 '#CB0000:#434343:and text colro is #FF0'`
+ - `badge 7 '#CB0000:#434343:and text color is #FF0'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.2.svg" />
 
 <hr>
 
 <h1>prefix/suffix separation</h1>
 
+ - for styles: 1, 4, 5, 7, 9, 10, 11, 12, 15, 16, 17, 18 and 19  
  - `DLM=5`  
  - `badge 9 'platfrom:Linux:Windows:Mac'` 
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.1.svg" />  
