@@ -315,7 +315,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 
 <h1>theme</h1>
 
-<h3>github (default)</h3>
+<h3>Github (default)</h3>
 
  - `bt G`
  - `badge 9 'theme:G:github'`
@@ -383,77 +383,77 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
     <th>mix: #XXXXXX</th>
   </tr>
   <tr>
-    <td>0</td>
+    <td>0 (= 0)</td>
     <td><img src="res/rgb/r/r-000000.svg" /></td>
     <td><img src="res/rgb/g/g-000000.svg" /></td>
     <td><img src="res/rgb/b/b-000000.svg" /></td>
     <td><img src="res/rgb/m/m-000000.svg" /></td>
   </tr>
   <tr>
-    <td>19</td>
+    <td>19 (= 25)</td>
     <td><img src="res/rgb/r/r-190000.svg" /></td>
     <td><img src="res/rgb/g/g-001900.svg" /></td>
     <td><img src="res/rgb/b/b-000019.svg" /></td>
     <td><img src="res/rgb/m/m-191919.svg" /></td>
   </tr>
   <tr>
-    <td>32</td>
+    <td>32 (= 50)</td>
     <td><img src="res/rgb/r/r-320000.svg" /></td>
     <td><img src="res/rgb/g/g-003200.svg" /></td>
     <td><img src="res/rgb/b/b-000032.svg" /></td>
     <td><img src="res/rgb/m/m-323232.svg" /></td>
   </tr>
   <tr>
-    <td>4B</td>
+    <td>4B (= 75)</td>
     <td><img src="res/rgb/r/r-4B0000.svg" /></td>
     <td><img src="res/rgb/g/g-004B00.svg" /></td>
     <td><img src="res/rgb/b/b-00004B.svg" /></td>
     <td><img src="res/rgb/m/m-4B4B4B.svg" /></td>
   </tr>
   <tr>
-    <td>64</td>
+    <td>64 (= 100)</td>
     <td><img src="res/rgb/r/r-640000.svg" /></td>
     <td><img src="res/rgb/g/g-006400.svg" /></td>
     <td><img src="res/rgb/b/b-000064.svg" /></td>
     <td><img src="res/rgb/m/m-646464.svg" /></td>
   </tr>
   <tr>
-    <td>7D</td>
+    <td>7D (= 125)</td>
     <td><img src="res/rgb/r/r-7D0000.svg" /></td>
     <td><img src="res/rgb/g/g-007D00.svg" /></td>
     <td><img src="res/rgb/b/b-00007D.svg" /></td>
     <td><img src="res/rgb/m/m-7D7D7D.svg" /></td>
   </tr>
   <tr>
-    <td>96</td>
+    <td>96 (= 150)</td>
     <td><img src="res/rgb/r/r-960000.svg" /></td>
     <td><img src="res/rgb/g/g-009600.svg" /></td>
     <td><img src="res/rgb/b/b-000096.svg" /></td>
     <td><img src="res/rgb/m/m-969696.svg" /></td>
   </tr>
   <tr>
-    <td>AF</td>
+    <td>AF (= 175)</td>
     <td><img src="res/rgb/r/r-AF0000.svg" /></td>
     <td><img src="res/rgb/g/g-00AF00.svg" /></td>
     <td><img src="res/rgb/b/b-0000AF.svg" /></td>
     <td><img src="res/rgb/m/m-AFAFAF.svg" /></td>
   </tr>
   <tr>
-    <td>C8</td>
+    <td>C8 (= 200)</td>
     <td><img src="res/rgb/r/r-C80000.svg" /></td>
     <td><img src="res/rgb/g/g-00C800.svg" /></td>
     <td><img src="res/rgb/b/b-0000C8.svg" /></td>
     <td><img src="res/rgb/m/m-C8C8C8.svg" /></td>
   </tr>
   <tr>
-    <td>E1</td>
+    <td>E1 (= 225)</td>
     <td><img src="res/rgb/r/r-E10000.svg" /></td>
     <td><img src="res/rgb/g/g-00E100.svg" /></td>
     <td><img src="res/rgb/b/b-0000E1.svg" /></td>
     <td><img src="res/rgb/m/m-E1E1E1.svg" /></td>
   </tr>
   <tr>
-    <td>FF</td>
+    <td>FF (= 255)</td>
     <td><img src="res/rgb/r/r-FF0000.svg" /></td>
     <td><img src="res/rgb/g/g-00FF00.svg" /></td>
     <td><img src="res/rgb/b/b-0000FF.svg" /></td>
