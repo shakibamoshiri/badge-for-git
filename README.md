@@ -387,14 +387,17 @@ for representing one of these main color.
  - `__,FF,__` is for representing <img src="res/rgb/g/g-00FF00.svg" /> color or in binary `00000000,11111111,00000000` or in decimal `0,255,0`  
  - `__,__,FF` is for representing <img src="res/rgb/b/b-0000FF.svg" /> color or in binary `00000000,00000000,11111111` of in decimal `0,0,255`  
 
-You should (have to) memorize these three colors and the position of each, which comes in this order: `red,green,blue`  or `FF,FF,FF` or `255,255,255`  
-Now instead of trying to memorize a number from `0` to `255` or to `FF`, divide 255 by 25 which we get 10 value and then we can memorize these ten easily  
-Here is a table and these **10** values which I memorized them. Even if you forgot them you can use the hex value equivalent of
+You should (have to) memorize these three colors and the position of each, which comes in this order:  
+
+ - `red,green,blue`  or `FF,FF,FF` or `255,255,255`  
+
+Now instead of trying to memorize a number from `0` to `255` or to `FF`, divide 255 by **25** which we get 11 values and then we can memorize these, easily.  
+Here is a table and these **11** values which I memorized them. Even if you forgot them you can use the hex value equivalent of
 
  - (decimal) 0, 25, 50, 75, 100, 125, 150, 175, 200, 225 and 250 which we can round it up to 255 which can be  
  - (hex    ) 0, 19, 32, 4B, 64,  7D,  96,  AF,  C8,  E1  and FA which we can round it up to FF  
 
-Now it is easier to memorize these ten other than 255 values.  
+Now it is easier to memorize these eleven, other than 255 values (e.g 0 to 255).  
 
  - need bright red, use `FF`
  - need dark red use `C8` or `AF`
@@ -486,7 +489,7 @@ Now it is easier to memorize these ten other than 255 values.
   </tr>
 </table>
 
-Even if these 10 values seem hard for you can divide 256 by **64** and only memorize 5 numbers  
+Even if these **11** values seem hard for you can divide 256 by **64** and only memorize 5 numbers  
 
  - (decimal) 0, 64, 128, 192, 255  
  - (hex    ) 0, 40, 80,  C0,  FF  
@@ -496,7 +499,7 @@ if you are wonder/curious about other colors like **yellow** and **orange**, the
  - yellow: full-red and full-green = `#FFFF00`  
  - cyan: full-green and full-blue = `#00FFFF`  
  - purple: full-red and full-blue = `#FF00FF`  
- - yellow-orange: full-red and half-green = `#FF8000` (= `FF` and `80` and `00`) or (= 255, 128, 0)  
+ - orange: full-red and half-green = `#FF8000` (= `FF` and `80` and `00`) or (= 255, 128, 0)  
 
 
 <hr>
