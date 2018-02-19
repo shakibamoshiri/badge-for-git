@@ -376,7 +376,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 
 <table>
   <tr>
-    <th>value</th>
+    <th>hex (= decimal)</th>
     <th>red: #XX0000</th>
     <th>green: #00XX00</th>
     <th>blue: #0000XX</th>
