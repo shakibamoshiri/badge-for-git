@@ -349,7 +349,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 
 <h3>inaccurate result</h3>
 
- - make sure you have the correct **font**, see the <a href="prerequisite">prerequisite</a> section above  
+ - make sure you have the correct **font**, see the <a href="#prerequisite">prerequisite</a> section above  
  - hit `alt-l` and open your console (in browser) and see if everything is logged appropriately or not  
  - do NOT zoom in/out, instead use `fs` (= font-size) and `bfs` (= badge-font-size) commands  
  - change your browser. Different browsers handle character height/width differently.
@@ -359,15 +359,16 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - change your browser. Different browsers handle character height/width differently.
 
 <h3>horizontal lines</h3>
+
  - you can create horizontal lines with:  
  - `badge 1 '::::::::::::::::::::::::::::::::::::::::'`  
  - `badge 7 '::::::::::::::::::::::::::::::::::::::::'`  
  - `badge 17 '::::::::::::::::::::::::::::::::::::::::'`  
  - here is the result, (but do NOT do this) it is very inefficient.  Instead use `line` command.
 
-<img src="res/line-with-badge-1" />
-<img src="res/line-with-badge-7" />
-<img src="res/line-with-badge-17" />
+<img src="res/line-with-badge-1.svg" />
+<img src="res/line-with-badge-7.svg" />
+<img src="res/line-with-badge-17.svg" />
 
 
 <hr>
