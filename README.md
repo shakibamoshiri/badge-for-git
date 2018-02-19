@@ -9,7 +9,7 @@
  - `badge 6 'type:web-app'`
  - <img src="res/type.svg" />
  - `badge 6 'birth:Date()'`
- - <img src="res/born.svg" />
+ - <img src="res/birth.svg" />
  - `badge 6 'name:badge for git(hub)'`
  - <img src="res/name.svg" />
  - `badge 6 'support:all modern browsers'`
@@ -339,5 +339,32 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `bt F`
  - `badge 9 'theme:F:facebook'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/F.svg" />
- 
- 
+
+
+<har>
+<h1>troubleshooting and handy tips</h1>
+
+<h3>old browser</h3>
+
+ - if the code is NOT copied to your clipboard, then use `shc` command (= show-clipboard) it appears at the top-right corner  
+ - if you want to see the source-code, hit `alt-v` (= verbose) and then open your console (in you browser). source-code is logged there  
+
+<h3>inaccurate result</h3>
+
+ - make sure you have the correct **font**, see the **prerequisite** section above  
+ - hit `alt-l` and open your console (in browser) and see if everything is logged appropriately or not  
+ - do NOT zoom in/out, instead use `fs` (= font-size) and `bfs` (= badge-font-size) command  
+ - change your browser. Different browsers handle character height/width differently.
+
+<h3>funky mouse movement</h3>
+
+ - change your browser. Different browsers handle character height/width differently.
+
+
+<hr>
+<h1 id="color-guide">color guide</h1>
+
+
+
+<hr>
+<h1 id="help">help</h1>
