@@ -3,7 +3,7 @@
   <img src="https://github.com/k-five/badge-for-git/blob/master/res/bfg.banner.gif" />
 </a>
 
-<hr>
+<img src="res/line/line5-900px-%23C8.svg" />
 <h1>Hi</h1>
 
  - `badge 6 'type:web-app'`
