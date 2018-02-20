@@ -509,7 +509,7 @@ if you are wonder/curious about other colors like **yellow** and **orange**, the
  - orange: full-red and half-green = `#FF8000` (= `FF` and `80` and `00`) or (= 255, 128, 0)  
 
 
-<img src="res/line/line5-900px-%2380F.svg" />
+<img src="res/line/line5-900px-%23F80.svg" />
 <h1 id="help">help</h1>
 
 
