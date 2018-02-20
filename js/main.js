@@ -2,7 +2,10 @@
 
 var svg     = new Svg();
 var path    = new Path();
+
 var badges  = new Badge();
+var lines   = new Line();
+
 var screen  = new Screen();
 var command = new Command(); // it uses screen and path
 

@@ -46,6 +46,7 @@ function Path()
                 'history' : 'executable',
 
                 'badge'   : 'executable',
+                'line'    : 'executable',
                 'bfs'     : 'executable',
                 'hwf'     : 'executable',
                 'shc'     : 'executable',

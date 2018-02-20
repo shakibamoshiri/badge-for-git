@@ -32,6 +32,13 @@ function Command()
     // 5 = default or prefix-color
     // 6 = default or suffix-color
 
+    // line command
+    var line = /^ *line *([1-5]) *(\d+) *(?:(default|#[0-9a-f]{3,6}))? *;?/i;
+    // 0 = all
+    // 1 = style
+    // 2 = length
+    // 3 = color
+
     // badge-font-size
     var bfs   = /^ *bfs *([5-9]|[1-9][0-9])? *;?$/;
 
@@ -285,6 +292,63 @@ function Command()
                 'for more example: cd doc/ then cat how-to-use or just hit alt-h',
             ]);
         }
+        else // run line command
+        if( line.exec( command ) )
+        {
+            var array = line.exec( command );
+
+            array[ 3 ] = ( array[ 3 ] === undefined ? lines.color : array[ 3 ] );
+
+            lines.color = ( array[ 3 ] === 'default' ? '#CB0000' : array[ 3 ] );
+
+            print( [
+                'style : ' + array[ 1 ],
+                'length: ' + array[ 2 ],
+                'color : ' + lines.color
+            ] );
+
+            // create SVG-line and add it to div.display
+            lines.create( array );
+
+            var display = doc.class( 'display' );
+            clipboard.value = '';
+
+            var temp = display[ display.length - 1 ].innerHTML
+            clipboard.value = temp;
+            temp = temp.replace( />/, ">\n" )
+                .replace( /<\/([a-z]+)>/gi, "</$1>\n" );
+
+            if( enable_svg_log === true )
+            {
+                console.log( temp );
+            }
+
+            text( 'char-height/max-width : ' + lines.char_height + '/' + lines.max_width + '(px)' );
+            screen.newline();
+
+            clipboard.select();
+            if( document.execCommand("Copy") === true )
+            {
+                text( 'copy style [' + array[ 1 ] + '] to clipboard was succeed' );
+            }
+            else
+            {
+                text( 'copy style [' + arry[ 1 ] + '] to clipboard was failed' );
+            }
+
+            screen.newline();
+        }
+        else // print a help for line command
+        if( command.search( /^ *line/ ) === 0 )
+        {
+            print( [
+                'line [style] [length] [default|#color]',
+                'style is between 1 to 5',
+                'color is optional. the default value: "#CB0000"',
+                'example: line 1 100',
+                'example: line 5 100 #0F0',
+            ]);
+        }
         else
         if( bfs.exec( command ) )
         {
@@ -357,6 +421,8 @@ function Command()
         if( DLM.exec( command ) )
         {
             badges.delimiter = parseInt( DLM.exec( command )[ 1 ] );
+            lines.delimiter = badges.delimiter;
+
             print( [
                 'set delimiter to ' + badges.delimiter,
                 'you can reset it using DLM=0'
