@@ -24,14 +24,14 @@
  1. A font of `monospace` family. Default is: `'DejaVu Sans Mono', 'Source code variable', monospace`
  2. Modern Browsers which can support **SVG** and **CSS Animation**, also **copy to clipboard**
 
-<hr>
+<img src="res/line/line5-900px-%23C8.svg" />
 
 <h1>assumption</h1>
 
   1. You are familiar with **Terminal** and with basic commands like: `ls`, `cd`, `cat`, etc.  
   2. You know how to use/apply colors in **Hex** value like: `#CB0000` or `#434343` 
  
-<hr>
+<img src="res/line/line5-900px-%23C8.svg" />
 
 <h1>if</h1>
 
@@ -46,13 +46,14 @@
   <a href="https://k-five.github.io/badge-for-git/" >start creating</a>
 </h1>
 
-<hr>
+<img src="res/line/line5-900px-%23C8.svg" />
 
 <h1>What is there?</h1>
 
 This is an application based on my previous app <a href="https://github.com/k-five/red-cursor">red-cursor<a/> which helps you generate some badges  
 that you can use them on your **README.md** file  
-<hr>
+
+<img src="res/line/line5-900px-%23C8.svg" />
 
 <h1>Why is that?</h1>  
 
@@ -106,7 +107,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 ### and here it the result:  
 <img src="https://github.com/k-five/badge-for-git/blob/master/res/for-you.svg" /></td>
 
-<hr>
+<img src="res/line/line5-900px-%23C8.svg" />
 
 <h1>diversity</h1>  
 
@@ -260,7 +261,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
     </tr>
 </table>
 
-<hr>
+<img src="res/line/line5-900px-%23C8.svg" />
 
 <h1>unlimited/flexible suffix repetition (regular or empty)</h1>
 
@@ -274,7 +275,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `badge 17 '::::::::::::::::::::'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.4.svg" />  
  
-<hr>
+<img src="res/line/line5-900px-%23C8.svg" />
 
 <h1>unlimited/flexible change-size</h1>
 
@@ -285,7 +286,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `badge 20 'made-with:for-you'`  
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/change-size.2.svg" />  
 
-<hr>
+<img src="res/line/line5-900px-%23C8.svg" />
 
 <h1>unrestricted background/foreground-color</h1>
 
@@ -295,7 +296,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `badge 7 '#CB0000:#434343:and text color is #FF0'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.2.svg" />
 
-<hr>
+<img src="res/line/line5-900px-%23C8.svg" />
 
 <h1>prefix/suffix separation</h1>
 
@@ -313,7 +314,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `badge 12 'do::::::you::::::like::::::this'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.4.svg" />  
 
-<hr> 
+<img src="res/line/line5-900px-%23C8.svg" /> 
 
 <h1>theme</h1>
 
@@ -341,7 +342,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `badge 9 'theme:F:facebook'`
  - <img src="https://github.com/k-five/badge-for-git/blob/master/res/F.svg" />
 
-<hr>
+<img src="res/line/line5-900px-%23C8.svg" />
 <h1>troubleshooting</h1>
 
 <h3>old browser</h3>
@@ -361,7 +362,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 
  - change your browser. Different browsers handle character height/width differently.
 
-<hr>
+<img src="res/line/line5-900px-%23C8.svg" />
 <h1>handy tips</h1>
 
 <h3>horizontal lines</h3>
@@ -377,7 +378,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 <img src="res/line-with-badge-17.svg" />
 
 
-<hr>
+<img src="res/line/line5-900px-%23C8.svg" />
 <h1 id="color-guide">color guide</h1>
 
 This is a very compact and brief tutorial that you can quickly learn and memorize **hex-color-value**  
@@ -508,11 +509,11 @@ if you are wonder/curious about other colors like **yellow** and **orange**, the
  - orange: full-red and half-green = `#FF8000` (= `FF` and `80` and `00`) or (= 255, 128, 0)  
 
 
-<hr>
+<img src="res/line/line5-900px-%2380F.svg" />
 <h1 id="help">help</h1>
 
 
-<hr>
+<img src="res/line/line5-900px-%23C8.svg" />
 <h1 id="license">license</h1>
 
 badge-for-git copyright &copy; 2018 Shakiba  
