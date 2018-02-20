@@ -15,7 +15,9 @@
  - `badge 6 'support:all modern browsers'`
  - <img src="res/support.svg" />
 
-<hr>
+
+<img src="res/line/line5-900px-%23C8.svg" />
+
 
 <h1 id="prerequisite">prerequisite</h1>
  
