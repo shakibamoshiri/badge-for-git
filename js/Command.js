@@ -877,8 +877,12 @@ function Command()
 
         print( h );
 
+        // if there is the 'guide', then it will return the tag (= outerHTML)
+        // other it will return null. But with doc.class it does not return
+        // "null" and return "undefined". Thus if we use "class" if statement
+        // should use "undefined" and if we use "id" it should use "null"
         var guide = doc.id( 'guide' );
-        if( guide !== undefined )
+        if( guide !== null )
         {
             doc.id( 'terminal' ).removeChild( guide );
         }
