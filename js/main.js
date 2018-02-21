@@ -27,7 +27,7 @@ screen.add( 'SPAN', 'badge-font-size', ' ', 'id' );
 
 // set the font-size just once
 doc.id( 'body' ).style.fontSize             = '15px';
-doc.id( 'screen-font-size' ).style.fontSize = doc.id( 'body' ).style.fontSize;
+doc.id( 'screen-font-size' ).style.fontSize = '15px';
 doc.id( 'badge-font-size' ).style.fontSize  = '15px';
 
 // for hwf command
@@ -151,10 +151,11 @@ function key_down( event )
         // and how many character we have in our row
         var width = row.textContent.length;
 
-        //if( width > ( cursor_pos * -1 ) )
+        // bit-wise operator ~ converts the positive value to negative but one less
+        // so by adding +1 to it it will be fixed: like: ~9 + 1 === -9
         if( width > ( ~cursor_pos + 1 ) )
         {
-            var array = row.textContent.split( "" );
+            var array = row.textContent.split( '' );
             row.textContent = '';
             var result = '';
 
@@ -178,10 +179,12 @@ function key_down( event )
         break;
 
         case 'Delete':
-        // if( ( cursor_pos * -1 ) > 0 )
+
+        // bit-wise operator ~ converts the positive value to negative but one less
+        // so by adding +1 to it it will be fixed: like: ~9 + 1 === -9
         if( ( ~cursor_pos + 1 ) > 0 )
         {
-            var array = row.textContent.split( "" );
+            var array = row.textContent.split( '' );
             row.textContent = '';
             var result = '';
 
@@ -439,7 +442,7 @@ function key_down( event )
         event.preventDefault();
         char = '';
 
-        var row_width  = screen.get( 'row' ).textContent.length * screen.char_width;
+        var row_width  = row.textContent.length * screen.char_width;
         var cursor_pos_px = parseInt( cursor.style.left );
 
         if( cursor_pos_px + row_width <= 0 )
@@ -484,9 +487,11 @@ function key_down( event )
 
         // for getting a fix number with should textContent.length
         // or innerHTML.length. 
-        var row_width = screen.get( 'row' ).textContent.length * screen.char_width;
+        var row_width = row.textContent.length * screen.char_width;
 
         // row_width = ( row_width ^ 0xFFFFFFFF ) + 1;
+        // bit-wise operator ~ converts the positive value to negative but one less
+        // so by adding +1 to it it will be fixed: like: ~9 + 1 === -9
         row_width = ( ~row_width ) + 1;
 
         // go to the beginning of line (=left side)
