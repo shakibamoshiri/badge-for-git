@@ -1,6 +1,6 @@
 
 <a href="https://k-five.github.io/badge-for-git/" >
-  <img src="https://github.com/k-five/badge-for-git/blob/master/res/bfg.banner.gif" />
+  <img src="res/bfg.banner.gif" />
 </a>
 
 <img src="res/line/line5-900px-%23C8.svg" />
@@ -87,25 +87,25 @@ Then you can go to your own repository and create a new file with `svg` extensio
 Paste the code there and save it. It is ready to use on/in your **README.md** file.  
 
 ### step 1 generate code:  
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/bfg.step.1.png" />
+<img src="res/bfg.step.1.png" />
 
 ### step 2 create new file:  
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/bfg.step.2.png" /></td>
+<img src="res/bfg.step.2.png" /></td>
 
 ### step 3 commit new file:  
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/bfg.step.3.png" /></td>
+<img src="res/bfg.step.3.png" /></td>
 
 ### step 4 (optional) click on the SVG file:  
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/bfg.step.4.png" /></td>
+<img src="res/bfg.step.4.png" /></td>
 
 ### step 5 copy its link:  
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/bfg.step.5.png" /></td>
+<img src="res/bfg.step.5.png" /></td>
 
 ### step 6 add a link to it in your README file:  
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/bfg.step.6.png" /></td>
+<img src="res/bfg.step.6.png" /></td>
 
 ### and here it the result:  
-<img src="https://github.com/k-five/badge-for-git/blob/master/res/for-you.svg" /></td>
+<img src="res/for-you.svg" /></td>
 
 <img src="res/line/line5-900px-%23C8.svg" />
 
@@ -120,140 +120,140 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
       <th>separation</th>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/1.svg" /></td>
+      <td><img src="badge/1.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/2.svg" /></td>
+      <td><img src="badge/2.svg" /></td>
       <td> </td>
       <td>Yes</td>
       <td>Yes</td>
       <td>No</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/3.svg" /></td>
+      <td><img src="badge/3.svg" /></td>
       <td> </td>
       <td>Yes</td>
       <td>Yes</td>
       <td>No</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/4.svg" /></td>
+      <td><img src="badge/4.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
-    <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/5.svg" /></td>
+    <td><img src="badge/5.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/6.svg" /></td>
+      <td><img src="badge/6.svg" /></td>
       <td> </td>
       <td>Yes</td>
       <td>Yes</td>
       <td>No</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/7.svg" /></td>
+      <td><img src="badge/7.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/8.svg" /></td>
+      <td><img src="badge/8.svg" /></td>
       <td> </td>
       <td>Yes</td>
       <td>Yes</td>
       <td>No</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/9.svg" /></td>
+      <td><img src="badge/9.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/10.svg" /></td>
+      <td><img src="badge/10.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/11.svg" /></td>
+      <td><img src="badge/11.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/12.svg" /></td>
+      <td><img src="badge/12.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/13.svg" /></td>
+      <td><img src="badge/13.svg" /></td>
       <td> </td>
       <td>Yes</td>
       <td>Yes</td>
       <td>No</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/14.svg" /></td>
+      <td><img src="badge/14.svg" /></td>
       <td> </td>
       <td>Yes</td>
       <td>Yes</td>
       <td>No</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/15.svg" /></td>
+      <td><img src="badge/15.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/16.svg" /></td>
+      <td><img src="badge/16.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/17.svg" /></td>
+      <td><img src="badge/17.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/18.svg" /></td>
+      <td><img src="badge/18.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/19.svg" /></td>
+      <td><img src="badge/19.svg" /></td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/k-five/badge-for-git/blob/master/badge/20.svg" /></td>
+      <td><img src="badge/20.svg" /></td>
       <td>No</td>
       <td>No</td>
       <td>Yes</td>
@@ -266,14 +266,14 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 <h1>unlimited/flexible suffix repetition (regular or empty)</h1>
 
  - `badge 17 'one:two:three:four:five:six:seven:eight:nine:ten'`
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.1.svg" />  
+ - <img src="res/repetition.1.svg" />  
  - `badge 17 'one::two::three::four::five'`
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.2.svg" />  
+ - <img src="res/repetition.2.svg" />  
  - `badge 17 '::::::::::::::::::::'`
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.3.svg" />  
+ - <img src="res/repetition.3.svg" />  
  - `'DLM=10'`
  - `badge 17 '::::::::::::::::::::'`
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/repetition.4.svg" />  
+ - <img src="res/repetition.4.svg" />  
  
 <img src="res/line/line5-900px-%23C8.svg" />
 
@@ -281,20 +281,20 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 
  - `bfs 5`  
  - `badge 20 'made-with:for-you'`  
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/change-size.1.svg" />  
+ - <img src="res/change-size.1.svg" />  
  - `bfs 99`  
  - `badge 20 'made-with:for-you'`  
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/change-size.2.svg" />  
+ - <img src="res/change-size.2.svg" />  
 
 <img src="res/line/line5-900px-%23C8.svg" />
 
 <h1>unrestricted background/foreground-color</h1>
 
  - `badge 7 '#CB0000:#434343' #CB0000:#434343`
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.1.svg" />
+ - <img src="res/bg-fg-color.1.svg" />
  - `BTC=#FF0`
  - `badge 7 '#CB0000:#434343:and text color is #FF0'`
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/bg-fg-color.2.svg" />
+ - <img src="res/bg-fg-color.2.svg" />
 
 <img src="res/line/line5-900px-%23C8.svg" />
 
@@ -303,16 +303,16 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - for styles: 1, 4, 5, 7, 9, 10, 11, 12, 15, 16, 17, 18 and 19  
  - `DLM=5`  
  - `badge 9 'platfrom:Linux:Windows:Mac'` 
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.1.svg" />  
+ - <img src="res/separation.1.svg" />  
  - `DLM=30`  
  - `badge 9 'platfrom:Linux:Windows:Mac'` 
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.2.svg" />  
+ - <img src="res/separation.2.svg" />  
  - `DLM=10`  
  - `badge 17 'do::::::you::::::like::::::this'`
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.3.svg" />  
+ - <img src="res/separation.3.svg" />  
  - `DLM=5`  
  - `badge 12 'do::::::you::::::like::::::this'`
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/separation.4.svg" />  
+ - <img src="res/separation.4.svg" />  
 
 <img src="res/line/line5-900px-%23C8.svg" /> 
 
@@ -322,25 +322,25 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 
  - `bt G`
  - `badge 9 'theme:G:github'`
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/G.svg" />
+ - <img src="res/G.svg" />
 
 <h3>Stack-overflow</h3>
 
  - `bt S`
  - `badge 9 'theme:S:stack-overflow'`
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/S.svg" />
+ - <img src="res/S.svg" />
 
 <h3>Twitter</h3>
 
  - `bt T`
  - `badge 9 'theme:T:twitter'`
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/T.svg" />
+ - <img src="res/T.svg" />
 
 <h3>Facebook</h3>
 
  - `bt F`
  - `badge 9 'theme:F:facebook'`
- - <img src="https://github.com/k-five/badge-for-git/blob/master/res/F.svg" />
+ - <img src="res/F.svg" />
 
 <img src="res/line/line5-900px-%23C8.svg" />
 <h1>troubleshooting</h1>
