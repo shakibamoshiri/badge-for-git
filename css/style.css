@@ -159,3 +159,19 @@ svg
     font-size: 30px;
     opacity: 0.5;
 }
+/*********** copyright section ***********/
+#copyright
+{
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+}
+#heart
+{
+    display: inline;
+}
+sup a
+{
+    color: #FFF;
+}
+/*****************************************/
