@@ -1,7 +1,6 @@
 'use strict';
 
 console.log( 'Command.js was loaded.' );
-var badge;
 function Command()
 {
     // red-cursor command
@@ -39,6 +38,8 @@ function Command()
     // 2 = length
     // 3 = color
 
+    var button = /button  *(["'])((?:(?!\1).)*)\1 *(?:(none|default|#[0-9a-f]{3,6}))? *;?/i;
+
     // badge-font-size
     var bfs   = /^ *bfs *([5-9]|[1-9][0-9])? *;?$/;
 
@@ -53,13 +54,22 @@ function Command()
     // S => stack-overflow
     // T => twitter
     // F => face-book
-    var bt    = /^ *bt *(G|S|T|F) *;?$/;
+    var theme    = /^ *theme *(G|S|T|F) *;?$/;
 
-    // set the badge-text-color
-    var BTC    = /^ *BTC(?:=(default|#[0-9a-fA-F]{3,6})) *;?$/;
+    // set the text-fill for button and path
+    var TF    = /^ *TF(?:=(default|#[0-9a-fA-F]{3,6})) *;?$/;
+
+    // path-stroke (color for stroke)
+    var BS    = /^ *BS(?:=(none|default|#[0-9a-fA-F]{3,6})) *;?$/;
 
     // delimiter
     var DLM    = /^ *DLM(?:=([0-9]|[1-9][0-9])) *;?$/;
+
+    // button-base-width 5-99
+    var BCL    = /^ *BCL(?:=([5-9]|[1-9][0-9])) *;?$/;
+
+    // path-stroke-width for button
+    var BSW    = /^ *BSW(?:=([0-9])) *;?$/;
 
     var active_clipboard = false;
 
@@ -349,6 +359,71 @@ function Command()
                 'example: line 5 100 #0F0',
             ]);
         }
+        else // button command
+        if( button.exec( command ) )
+        {
+            // we need the index 2, and 3
+            var array = button.exec( command );
+            // array[ 3 ] = ( array[ 3 ] === undefined ? buttons.fill : array[ 3 ] );
+            // buttons.fill = ( array[ 3 ] === 'default' ? '#434343' : array[ 3 ] );
+            var temp = {
+                undefined : buttons.fill,
+                'default' : '#434343',
+                'none'    : 'none',
+            };
+
+            buttons.fill = temp[ array[ 3 ] ];
+            // when there is hex-color, temp returns 'undefined' to buttons.fill will be undefined
+            if(  buttons.fill === undefined )
+            {
+                buttons.fill = array[ 3 ];
+            }
+
+            print( [
+                'text/fill   : ' + array[ 2 ].match( /^(?:[()<>])?(.*?)(?:[()<>])?$/ )[ 1 ] + '/' + buttons.text_fill ,
+                'button-fill : ' + buttons.fill,
+            ]);
+
+            // create SVG-line and add it to div.display
+            buttons.create( array[ 2 ] );
+
+            var display = doc.class( 'display' );
+            clipboard.value = '';
+
+            var temp = display[ display.length - 1 ].innerHTML
+            clipboard.value = temp;
+            temp = temp.replace( />/, ">\n" )
+                .replace( /<\/([a-z]+)>/gi, "</$1>\n" );
+
+            if( enable_svg_log === true )
+            {
+                console.log( temp );
+            }
+
+            text( 'button-height/button-width : ' + buttons.button_height + '/' + buttons.button_width + '(px)' );
+            screen.newline();
+
+            clipboard.select();
+            if( document.execCommand("Copy") === true )
+            {
+                text( 'copy style [' + buttons.style + '] to clipboard was succeed' );
+            }
+            else
+            {
+                text( 'copy style [' + buttons.style + '] to clipboard was failed' );
+            }
+            screen.newline();
+        }
+        else // help for button command
+        if( command.search( /^ *button */ ) === 0 )
+        {
+            print( [
+                'button "text" [default|#background-color]',
+                'color is optional; default value: "#434334"',
+                'example: button "home"',
+                'example: button "home" #0F0',
+            ]);
+        }
         else
         if( bfs.exec( command ) )
         {
@@ -401,20 +476,24 @@ function Command()
             }
         }
         else // badge-text-color
-        if( BTC.exec( command ) )
+        if( TF.exec( command ) )
         {
-            badges.text_color = BTC.exec( command )[ 1 ];
+            badges.text_color = TF.exec( command )[ 1 ];
+            buttons.text_fill = badges.text_color;
+
             badges.text_color = badges.text_color === 'default' ? '#FFF' : badges.text_color;
+            buttons.text_fill = buttons.text_fill === 'default' ? '#FFF' : buttons.text_fill;
+
             text( 'set text-color to ' + badges.text_color );
             screen.newline();
         }
         else // badge-text-color help
-        if( command.search( /^ *BTC/ ) === 0 )
+        if( command.search( /^ *TF/ ) === 0 )
         {
             print( [
-                'BTC ' + badges.text_color,
+                'TF ' + badges.text_color,
                 'add a hex color and change the default',
-                'or reset it: BTC=default',
+                'or reset it: TF=default',
             ] );
         }
         else // badge delimiter for separation
@@ -437,14 +516,69 @@ function Command()
                 'default is 0',
             ] );
         }
+        else // button-max-width
+        if( BCL.exec( command ) )
+        {
+            buttons.char_length = parseInt( BCL.exec( command )[ 1 ] );
+
+            print( [
+                'set button-char-length to ' + buttons.char_length,
+                'you can reset it using BCL=10'
+            ] );
+        }
+        else // print help for BCL
+        if( command.search( /^ *BCL/ ) === 0 )
+        {
+            print( [
+                'BCL ' + buttons.char_length,
+                'A number between 5 to 99',
+                'default is 10',
+            ] );
+        }
+        else // button-stroke-width
+        if( BSW.exec( command ) )
+        {
+            buttons.stroke_width = parseInt( BSW.exec( command )[ 1 ] )
+            print( [
+                'set button-stroke-width to ' + buttons.stroke_width,
+                'you can reset it using BSW=10'
+            ] );
+        }
+        else // print help for stroke-wdith
+        if( command.search( /^ *BSW/ ) === 0 )
+        {
+            print( [
+                'BSW ' + buttons.stroke_width,
+                'A number between 0 to 9',
+                'default is 0.',
+            ] );
+        }
+        else // button path-stroke
+        if( BS.exec( command ) )
+        {
+            buttons.stroke = BS.exec( command )[ 1 ];
+            buttons.stroke = buttons.stroke === 'default' ? '#CB0000' : buttons.stroke;
+
+            text( 'set button-stroke to ' + buttons.stroke );
+            screen.newline();
+        }
+        else // badge-text-color help
+        if( command.search( /^ *BS/ ) === 0 )
+        {
+            print( [
+                'BS ' + buttons.stroke,
+                'add a hex color and change the default',
+                'or reset it: BS=default',
+            ] );
+        }
         else // badge-theme
-        if( bt.exec( command ) )
+        if( theme.exec( command ) )
         {
             // git-hub        #CB0000
             // stack overflow #FF8000
             // twitter        #1DA1F2
             // face-book      #4867AA
-            switch( bt.exec( command )[ 1 ] )
+            switch( theme.exec( command )[ 1 ] )
             {
                 case 'G':
                 badges.colors[ 1 ] = '#CB0000';
@@ -470,14 +604,14 @@ function Command()
             screen.newline();
         }
         else // print help for badge-theme
-        if( command.search( /^ *bt/ ) === 0 )
+        if( command.search( /^ *theme/ ) === 0 )
         {
             print( [
                 'default badge-theme is github (G)',
                 'but you can also use:',
                 'stack-overflow => (S)',
                 'titter         => (T)',
-                'face-book      => (F)',
+                'facebook       => (F)',
             ] );
         }
         // end of commands processing
@@ -855,10 +989,13 @@ function Command()
                 '                  You no need to use this command since by',
                 '                  default it will be copied to your clipboard.',
                 '                  It is there for old-browsers.',
-                'bt       Yes      set a theme default is G. use: G,S,T or F',
+                'theme    Yes      set a theme default is G. use: G,S,T or F',
                 '                  G:github, S:stack-overflow, T:twitter, F:facebook',
-                'BTC=     Yes      global variable for badge-text-color',
-                'DLM=     Yes      global variable for separation (delimiter). [0-99]',
+                'TF=      Yes      text-fill, (button/badge) default: #FFF',
+                'DLM=     Yes      delimiter,                default: 0,  rage[5-99]',
+                'BCL=     yes      button-char-length,       default: 10, range[5-99]',
+                'BS=      Yes      button-stroke,            default: #CB0000',
+                'BSW=     Yes      button-stroke-width,      default: 0,  range[0-9]',
                 '',
                 'some key bindings:',
                 '..................',

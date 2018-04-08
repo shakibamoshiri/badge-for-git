@@ -5,6 +5,7 @@ var path    = new Path();
 
 var badges  = new Badge();
 var lines   = new Line();
+var buttons = new Button();
 
 var screen  = new Screen();
 var command = new Command(); // it uses screen and path
@@ -486,7 +487,7 @@ function key_down( event )
         char = '';
 
         // for getting a fix number with should textContent.length
-        // or innerHTML.length. 
+        // or innerHTML.length.
         var row_width = row.textContent.length * screen.char_width;
 
         // row_width = ( row_width ^ 0xFFFFFFFF ) + 1;

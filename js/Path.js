@@ -47,13 +47,17 @@ function Path()
 
                 'badge'   : 'executable',
                 'line'    : 'executable',
+                'button'  : 'executable',
                 'bfs'     : 'executable',
                 'hwf'     : 'executable',
                 'shc'     : 'executable',
-                'bt'      : 'executable',
+                'theme'   : 'executable',
 
-                'BTC='    : 'global_variable',
-                'DLM='    : 'global_variable',
+                'TF='     : 'global_variable', // badge/button text-fill, default: #FFF
+                'DLM='    : 'global_variable', // delimiter,              default: 0
+                'BCL='    : 'global_variable', // button-char-length,     default: 10
+                'BS='     : 'global_variable', // button-stroke,          default: #CB0000
+                'BSW='    : 'global_variable', // button-stroke-width,    default: 0
             },
 
             'doc' :
