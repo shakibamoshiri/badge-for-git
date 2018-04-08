@@ -1,3 +1,25 @@
+<p  align="center" >
+<a href="https://github.com/k-five/badge-for-git">
+<img src="https://github.com/k-five/badge-for-git/blob/master/button/create.left.side.svg" />
+</a>
+ <a href="#howto">
+<img src="https://github.com/k-five/badge-for-git/blob/master/button/howto.svg" />
+</a>
+<a href="">
+<img src="https://github.com/k-five/badge-for-git/blob/master/button/button.svg" />
+</a>
+<a href="">
+<img src="https://github.com/k-five/badge-for-git/blob/master/button/badge.svg" />
+</a>
+<a href="">
+<img src="https://github.com/k-five/badge-for-git/blob/master/button/line.svg" />
+</a>
+ <a href="#license">
+<img src="https://github.com/k-five/badge-for-git/blob/master/button/license.svg" />
+</a>
+</p>
+
+
 
 <a href="https://k-five.github.io/badge-for-git/" >
   <img src="res/bfg.banner.gif" />
@@ -77,7 +99,7 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
  - unlimited new ideas (you can create your own style just by adding a single function)  
 
 
-<h1>What should I do?</h1>
+<h1 id="howto" >What should I do?</h1>
 
 You will open <a href="https://k-five.github.io/badge-for-git/">the app</a>, try generating a badge based on a style that is available and its command.  
 For example: `badge 20 "made-with:for-you"`  based on style 20 will generate a SVG file and you  
