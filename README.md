@@ -5,13 +5,13 @@
  <a href="#howto">
 <img src="https://github.com/k-five/badge-for-git/blob/master/button/howto.svg" />
 </a>
-<a href="">
+<a href="https://github.com/k-five/badge-for-git/wiki/Samples#button">
 <img src="https://github.com/k-five/badge-for-git/blob/master/button/button.svg" />
 </a>
-<a href="">
+<a href="https://github.com/k-five/badge-for-git/wiki/Samples#badge">
 <img src="https://github.com/k-five/badge-for-git/blob/master/button/badge.svg" />
 </a>
-<a href="">
+<a href="https://github.com/k-five/badge-for-git/wiki/Samples#line">
 <img src="https://github.com/k-five/badge-for-git/blob/master/button/line.svg" />
 </a>
  <a href="#license">
