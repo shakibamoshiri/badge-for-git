@@ -448,6 +448,7 @@ function Command()
             // update hwf: height, width and font-size
             badges.init();
             buttons.init();
+            lines.init();
         }
         else // print a help for bfs command
         if( command.search( /^ *bfs/ ) === 0 )

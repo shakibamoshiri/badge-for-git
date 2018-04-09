@@ -223,7 +223,6 @@ Line.prototype.create = function( array )
     this.user_length = parseInt( array[ 2 ] );
 
     this.div( 'display' );
-    this.init();
 
     // "+ this.delimiter" is important
     // if we do not add this variable we will get a longer line other
