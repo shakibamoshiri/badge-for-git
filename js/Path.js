@@ -45,13 +45,13 @@ function Path()
                 'clear'   : 'executable',
                 'history' : 'executable',
 
-                'badge'   : 'executable',
-                'line'    : 'executable',
-                'button'  : 'executable',
-                'bfs'     : 'executable',
-                'hwf'     : 'executable',
-                'shc'     : 'executable',
-                'theme'   : 'executable',
+                'badge'   : 'executable2',
+                'line'    : 'executable2',
+                'button'  : 'executable2',
+                'bfs'     : 'executable2',
+                'hwf'     : 'executable2',
+                'shc'     : 'executable2',
+                'theme'   : 'executable2',
 
                 'TF='     : 'global_variable', // badge/button text-fill, default: #FFF
                 'DLM='    : 'global_variable', // delimiter,              default: 0
