@@ -60,6 +60,7 @@ function Screen( )
 
         // update badges font-size, char-height and char-width
         badges.init();
+        buttons.init();
     }
 
     // add simple text to the screen

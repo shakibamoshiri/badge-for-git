@@ -4,15 +4,15 @@ function Button()
 {
     this.svgns = 'http://www.w3.org/2000/svg';
 
-    this.char_width = 0;
+    this.char_width  = 0;
     this.char_height = 0;
-    this.font_size = 0;
-    this.style = 0;
+    this.font_size   = 0;
+    this.style       = 0;
 
-    this.text_x = 0;
-    this.baseline = 0;
+    this.text_x      = 0;
+    this.baseline    = 0;
     this.char_length = 10;
-    this.max_width = 0;
+    this.max_width   = 0;
 
     this.fill      = '#434343';
     this.text_fill = '#FFF';
@@ -25,9 +25,9 @@ function Button()
 
 Button.prototype.div = function( className )
 {
-    this.char_width = 0;
-    this.char_height = 0;
-    this.font_size = 0;
+    // this.char_width = 0;
+    // this.char_height = 0;
+    // this.font_size = 0;
 
     var div = document.createElement( 'DIV' );
     div.className = className;
@@ -183,24 +183,6 @@ Button.prototype.find_points = function( text )
         this.style = 7;
         return this.style_7();
     }
-    // else
-    // if( text.search( /^>([a-zA-Z1-9 ]+$/gi ) === 0 ) // ">text"
-    // {
-    //     this.style = 8;
-    //     return this.style_8();
-    // }
-    // else
-    // if( text.search( /^([a-zA-Z1-9 ]+<$/gi ) === 0 ) // "text<"
-    // {
-    //     this.style = 9;
-    //     return this.style_9();
-    // }
-    // else
-    // if( text.search( /^>[a-zA-Z1-9 ]+<$/gi ) === 0 ) // ">text<"
-    // {
-    //     this.style = 10;
-    //     return this.style_10();
-    // }
     else
     {
         this.style = 1;
@@ -272,7 +254,7 @@ Button.prototype.create = function( text )
     this.div( 'display' );
 
     // set char_wight, char_height and font_size
-    this.init();
+    // this.init();
 
     // a half of stroke-width
     this.stroke_width_offset = this.stroke_width / 2;

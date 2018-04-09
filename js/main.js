@@ -33,6 +33,7 @@ doc.id( 'badge-font-size' ).style.fontSize  = '15px';
 
 // for hwf command
 badges.init();
+buttons.init();
 
 // first prompt
 screen.prompt();
