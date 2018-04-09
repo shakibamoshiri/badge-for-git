@@ -557,7 +557,7 @@ function Command()
         if( BS.exec( command ) )
         {
             buttons.stroke = BS.exec( command )[ 1 ];
-            buttons.stroke = buttons.stroke === 'default' ? '#CB0000' : buttons.stroke;
+            buttons.stroke = buttons.stroke === 'default' ? '#434343' : buttons.stroke;
 
             text( 'set button-stroke to ' + buttons.stroke );
             screen.newline();
