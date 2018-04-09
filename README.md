@@ -1,5 +1,5 @@
 <p  align="center" >
-<a href="https://github.com/k-five/badge-for-git">
+<a href="https://k-five.github.io/badge-for-git/">
 <img src="https://github.com/k-five/badge-for-git/blob/master/button/create.left.side.svg" />
 </a>
  <a href="#howto">
