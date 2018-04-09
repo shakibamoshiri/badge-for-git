@@ -276,11 +276,11 @@ function Command()
                 clipboard.select();
                 if( document.execCommand("Copy") === true )
                 {
-                    text( 'copy style [' + begin + '] to clipboard was succeed' );
+                    text( 'copy style [' + begin + '] to clipboard was successful' );
                 }
                 else
                 {
-                    text( 'copy style [' + begin + '] to clipboard was failed' );
+                    text( 'copy style [' + begin + '] to clipboard was unsuccessful' );
                 }
             }
             else
@@ -341,11 +341,11 @@ function Command()
             clipboard.select();
             if( document.execCommand("Copy") === true )
             {
-                text( 'copy style [' + exec_result[ 1 ] + '] to clipboard was succeed' );
+                text( 'copy style [' + exec_result[ 1 ] + '] to clipboard was successful' );
             }
             else
             {
-                text( 'copy style [' + exec_result[ 1 ] + '] to clipboard was failed' );
+                text( 'copy style [' + exec_result[ 1 ] + '] to clipboard was unsuccessful' );
             }
 
             screen.newline();
@@ -406,11 +406,11 @@ function Command()
             clipboard.select();
             if( document.execCommand("Copy") === true )
             {
-                text( 'copy style [' + buttons.style + '] to clipboard was succeed' );
+                text( 'copy style [' + buttons.style + '] to clipboard was successful' );
             }
             else
             {
-                text( 'copy style [' + buttons.style + '] to clipboard was failed' );
+                text( 'copy style [' + buttons.style + '] to clipboard was unsuccessful' );
             }
             screen.newline();
         }
