@@ -1,7 +1,5 @@
 'use strict';
 
-console.log( 'Badges.js was loaded' );
-
 function Badge()
 {
     this.svgns = 'http://www.w3.org/2000/svg';
@@ -36,10 +34,6 @@ function Badge()
 
 Badge.prototype.div = function( class_name )
 {
-    this.char_width = 0;
-    this.char_height = 0;
-    this.font_size = 0;
-
     this.rescue = '';
     this.begin = 0;
     this.tip = 0;
@@ -891,7 +885,6 @@ Badge.prototype.create = function( array )
     }
 
     this.div( 'display' );
-    this.init();
 
     /*
       https://developer.mozilla.org/en-US/docs/Web/API/Document/createElementNS
@@ -944,3 +937,4 @@ Badge.prototype.create = function( array )
     // svg.width at the first is 0 but it will be added by this function
     this.fix_width();
 }
+console.log( 'Badges.js was loaded' );
