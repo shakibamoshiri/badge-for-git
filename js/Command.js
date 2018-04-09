@@ -38,6 +38,7 @@ function Command()
     // 2 = length
     // 3 = color
 
+    // button command
     var button = /button  *(["'])((?:(?!\1).)*)\1 *(?:(none|default|#[0-9a-f]{3,6}))? *;?/i;
 
     // badge-font-size
@@ -76,13 +77,13 @@ function Command()
     // handle two key-press for Alter key
     // var twice_alt_flag = false;
 
-    // storing each command as the history of the terminal
+    // storing each command as history
     this.histories = [];
     this.h_index   = 0;
 
     var line_buffer_backup = '';
 
-    // for checking if a command is valid or NOT
+    // check if a command is valid or NOT
     this.check = function( command )
     {
         if( cd.exec( command ) )
@@ -179,23 +180,19 @@ function Command()
             var media = open.exec( command )[ 1 ];
             if( media === undefined  )
             {
-                text( 'argument required be a mdeia type' );
+                text( 'argument required be a media type' );
                 screen.newline();
             }
             else
             {
                 var cwd = path.cwd();
                 if( media in path.root[ cwd ] && path.root[ cwd ][ media ] === 'media' )
-                {
-                    // if( cwd === 'badge' )
-                    // {
-                    //window.open( './' + cwd + '/' + media, '_blank', path.readable.badge[ media ] );
+                {;
                     window.open( './' + cwd + '/' + media, '_blank', path.readable[ cwd ][ media ] );
-                    //}
                 }
                 else
                 {
-                    text( '(' + media + ')' + ' is not mdeia type' );
+                    text( '(' + media + ')' + ' is not media type' );
                     screen.newline();
                 }
             }
@@ -218,7 +215,6 @@ function Command()
             }
 
             var ps = array[ 4 ].split( ':' );
-            //var ps = 'one:\u0233'.split( ':' );
             print( [
                 'style : ' + begin + ' to ' + end,
                 'prefix: "' + ps[ 0 ] + '" color: ' + array[ 5 ],
@@ -288,7 +284,7 @@ function Command()
 
             screen.newline();
         }
-        else // print a help for badge command
+        else // print help for badge command
         if( command.search( /^ *badge/ ) === 0 )
         {
             print( [
@@ -348,7 +344,7 @@ function Command()
 
             screen.newline();
         }
-        else // print a help for line command
+        else // print help for line command
         if( command.search( /^ *line/ ) === 0 )
         {
             print( [
@@ -364,8 +360,6 @@ function Command()
         {
             // we need the index 2, and 3
             var array = button.exec( command );
-            // array[ 3 ] = ( array[ 3 ] === undefined ? buttons.fill : array[ 3 ] );
-            // buttons.fill = ( array[ 3 ] === 'default' ? '#434343' : array[ 3 ] );
             var temp = {
                 undefined : buttons.fill,
                 'default' : '#434343',
@@ -384,7 +378,7 @@ function Command()
                 'button-fill : ' + buttons.fill,
             ]);
 
-            // create SVG-line and add it to div.display
+            // create a button and add it to div.display, array[ 2 ] is the "text"
             buttons.create( array[ 2 ] );
 
             var display = doc.class( 'display' );
@@ -414,7 +408,7 @@ function Command()
             }
             screen.newline();
         }
-        else // help for button command
+        else // print help for button command
         if( command.search( /^ *button */ ) === 0 )
         {
             print( [
@@ -424,7 +418,7 @@ function Command()
                 'example: button "home" #0F0',
             ]);
         }
-        else
+        else // badge-font-size (for both badge and button)
         if( bfs.exec( command ) )
         {
             var size = bfs.exec( command )[ 1 ];
@@ -544,7 +538,7 @@ function Command()
                 'you can reset it using BSW=10'
             ] );
         }
-        else // print help for stroke-wdith
+        else // print help for stroke-width
         if( command.search( /^ *BSW/ ) === 0 )
         {
             print( [
@@ -743,7 +737,7 @@ function Command()
             screen.cursor();
             screen.newline();
 
-            // set init.js
+            // see init.js
             if( enable_log )
             {
                 console.log( 'clear the screen with Control + L' );
@@ -803,7 +797,6 @@ function Command()
         {
             screen.newline();
         }
-
     }
 
     this.cd = function( arg )
@@ -818,7 +811,6 @@ function Command()
 
             case '~':
             path.pwd = [ 'home', 'badge-for-git' ];
-            //path.pwd = [ 'home', 'guest' ];
             break;
 
             case '/':
@@ -886,7 +878,6 @@ function Command()
         {
             console.log( 'clear the screen with clear command' );
         }
-
     }
 
     this.df = function()
@@ -918,8 +909,8 @@ function Command()
         {
             arg = arg.trim();
         }
-        var cwd = path.cwd();
 
+        var cwd = path.cwd();
         if( arg in path.root[ cwd ] )
         {
             if( path.root[ cwd ][ arg ] === 'readable' )
@@ -992,7 +983,7 @@ function Command()
                 'theme    Yes      set a theme default is G. use: G,S,T or F',
                 '                  G:github, S:stack-overflow, T:twitter, F:facebook',
                 'TF=      Yes      text-fill, (button/badge) default: #FFF',
-                'DLM=     Yes      delimiter,                default: 0,  rage[5-99]',
+                'DLM=     Yes      delimiter,                default: 0,  range[5-99]',
                 'BCL=     yes      button-char-length,       default: 10, range[5-99]',
                 'BS=      Yes      button-stroke,            default: #CB0000',
                 'BSW=     Yes      button-stroke-width,      default: 0,  range[0-9]',
@@ -1014,8 +1005,8 @@ function Command()
 
         print( h );
 
-        // if there is the 'guide', then it will return the tag (= outerHTML)
-        // other it will return null. But with doc.class it does not return
+        // if there is the 'guide', then it will return non-null;
+        // otherwise it will return null. But with doc.class it does not return
         // "null" and return "undefined". Thus if we use "class" if statement
         // should use "undefined" and if we use "id" it should use "null"
         var guide = doc.id( 'guide' );
