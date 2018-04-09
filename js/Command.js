@@ -1,6 +1,5 @@
 'use strict';
 
-console.log( 'Command.js was loaded.' );
 function Command()
 {
     // red-cursor command
@@ -40,6 +39,10 @@ function Command()
 
     // button command
     var button = /button  *(["'])((?:(?!\1).)*)\1 *(?:(none|default|#[0-9a-f]{3,6}))? *;?/i;
+    // 0 = all
+    // 1 = " or '
+    // 2 = text
+    // 3 = color | default | none
 
     // badge-font-size
     var bfs   = /^ *bfs *([5-9]|[1-9][0-9])? *;?$/;
@@ -83,13 +86,16 @@ function Command()
 
     var line_buffer_backup = '';
 
+    // store the xxx.exec( command ) result
+    var exec_result = null;
+
     // check if a command is valid or NOT
     this.check = function( command )
     {
-        if( cd.exec( command ) )
+        if( ( exec_result = cd.exec( command ) ) )
         {
-            var arg = cd.exec( command )[ 1 ];
-            this.cd( arg );
+            // var arg = cd.exec( command )[ 1 ];
+            this.cd( exec_result[ 1 ] );
         }
         else
         if( ls.exec( command ) )
@@ -121,10 +127,10 @@ function Command()
             screen.newline();
         }
         else
-        if( cat.exec( command ) )
+        if( ( exec_result = cat.exec( command ) ) )
         {
-            var arg = cat.exec( command )[ 1 ];
-            this.cat( arg );
+            // var arg = cat.exec( command )[ 1 ];
+            this.cat( exec_result[ 1 ] );
         }
         else
         if( history.exec( command ) )
@@ -132,9 +138,9 @@ function Command()
             this.history();
         }
         else
-        if( bc.exec( command ) )
+        if( ( exec_result = bc.exec( command ) ) )
         {
-            var color = bc.exec( command )[ 1 ];
+            var color = exec_result[ 1 ];
             if( color === undefined  )
             {
                 screen.background();
@@ -147,15 +153,15 @@ function Command()
             }
         }
         else
-        if( fs.exec( command ) )
+        if( ( exec_result = fs.exec( command ) ) )
         {
-            var size = fs.exec( command )[ 1 ];
+            var size = exec_result[ 1 ];
             if( size === undefined )
             {
                 screen.font_size();
                 print( [
-                    'reset to default',
-                    'Range is from 10 to 99. Default is 15px.',
+                    'reset to default: 15px',
+                    'range is from 10 to 99.',
                 ] );
             }
             else
@@ -175,9 +181,9 @@ function Command()
             this.help();
         }
         else
-        if( open.exec( command ) )
+            if( ( exec_result = open.exec( command ) ) )
         {
-            var media = open.exec( command )[ 1 ];
+            var media = exec_result[ 1 ];
             if( media === undefined  )
             {
                 text( 'argument required be a media type' );
@@ -198,27 +204,27 @@ function Command()
             }
         }
         else
-        if( badge.exec( command ) )
+            if( ( exec_result = badge.exec( command ) ) )
         {
-            var array = badge.exec( command );
+            // var array = badge.exec( command );
 
-            array[ 5 ] = ( array[ 5 ] === undefined ? badges.colors[ 0 ] : array[ 5 ] );
-            array[ 6 ] = ( array[ 6 ] === undefined ? badges.colors[ 1 ] : array[ 6 ] );
+            exec_result[ 5 ] = ( exec_result[ 5 ] === undefined ? badges.colors[ 0 ] : exec_result[ 5 ] );
+            exec_result[ 6 ] = ( exec_result[ 6 ] === undefined ? badges.colors[ 1 ] : exec_result[ 6 ] );
 
-            badges.colors[ 0 ] = ( array[ 5 ] === 'default' ? '#434343' : array[ 5 ] );
-            badges.colors[ 1 ] = ( array[ 6 ] === 'default' ? '#CB0000' : array[ 6 ] );
+            badges.colors[ 0 ] = ( exec_result[ 5 ] === 'default' ? '#434343' : exec_result[ 5 ] );
+            badges.colors[ 1 ] = ( exec_result[ 6 ] === 'default' ? '#CB0000' : exec_result[ 6 ] );
 
-            var begin = parseInt( array[ 1 ] );
-            if( array[ 2 ] !== undefined )
+            var begin = parseInt( exec_result[ 1 ] );
+            if( exec_result[ 2 ] !== undefined )
             {
-                var end   = parseInt( array[ 2 ].substr( 2, 2 ) );
+                var end   = parseInt( exec_result[ 2 ].substr( 2, 2 ) );
             }
 
-            var ps = array[ 4 ].split( ':' );
+            var ps = exec_result[ 4 ].split( ':' );
             print( [
                 'style : ' + begin + ' to ' + end,
-                'prefix: "' + ps[ 0 ] + '" color: ' + array[ 5 ],
-                'suffix: "' + ps.slice( 1, ps.length ) + '" color: ' + array[ 6 ],
+                'prefix: "' + ps[ 0 ] + '" color: ' + exec_result[ 5 ],
+                'suffix: "' + ps.slice( 1, ps.length ) + '" color: ' + exec_result[ 6 ],
             ] );
 
             // for 1..20
@@ -226,9 +232,9 @@ function Command()
             {
                 while( begin <= end )
                 {
-                    array[ 1 ] = begin;
+                    exec_result[ 1 ] = begin;
                     text( begin + ' => ' )
-                    badges.create( array );
+                    badges.create( exec_result );
                     ++begin;
                 }
             }
@@ -238,16 +244,16 @@ function Command()
             {
                 while( begin >= end )
                 {
-                    array[ 1 ] = begin;
+                    exec_result[ 1 ] = begin;
                     text( begin + ' => ' )
-                    badges.create( array );
+                    badges.create( exec_result );
                     --begin;
                 }
             }
             else
             {
                 // create SVG and add it to div.display
-                badges.create( array );
+                badges.create( exec_result );
             }
 
             var display = doc.class( 'display' );
@@ -299,22 +305,22 @@ function Command()
             ]);
         }
         else // run line command
-        if( line.exec( command ) )
+            if( ( exec_result = line.exec( command ) ) )
         {
-            var array = line.exec( command );
+            // var exec_result = line.exec( command );
 
-            array[ 3 ] = ( array[ 3 ] === undefined ? lines.color : array[ 3 ] );
+            exec_result[ 3 ] = ( exec_result[ 3 ] === undefined ? lines.color : exec_result[ 3 ] );
 
-            lines.color = ( array[ 3 ] === 'default' ? '#CB0000' : array[ 3 ] );
+            lines.color = ( exec_result[ 3 ] === 'default' ? '#CB0000' : exec_result[ 3 ] );
 
             print( [
-                'style : ' + array[ 1 ],
-                'length: ' + array[ 2 ],
+                'style : ' + exec_result[ 1 ],
+                'length: ' + exec_result[ 2 ],
                 'color : ' + lines.color
             ] );
 
             // create SVG-line and add it to div.display
-            lines.create( array );
+            lines.create( exec_result );
 
             var display = doc.class( 'display' );
             clipboard.value = '';
@@ -335,11 +341,11 @@ function Command()
             clipboard.select();
             if( document.execCommand("Copy") === true )
             {
-                text( 'copy style [' + array[ 1 ] + '] to clipboard was succeed' );
+                text( 'copy style [' + exec_result[ 1 ] + '] to clipboard was succeed' );
             }
             else
             {
-                text( 'copy style [' + arry[ 1 ] + '] to clipboard was failed' );
+                text( 'copy style [' + exec_result[ 1 ] + '] to clipboard was failed' );
             }
 
             screen.newline();
@@ -356,30 +362,30 @@ function Command()
             ]);
         }
         else // button command
-        if( button.exec( command ) )
+            if( ( exec_result = button.exec( command ) ) )
         {
             // we need the index 2, and 3
-            var array = button.exec( command );
+            // var exec_result = button.exec( command );
             var temp = {
                 undefined : buttons.fill,
                 'default' : '#434343',
                 'none'    : 'none',
             };
 
-            buttons.fill = temp[ array[ 3 ] ];
+            buttons.fill = temp[ exec_result[ 3 ] ];
             // when there is hex-color, temp returns 'undefined' to buttons.fill will be undefined
             if(  buttons.fill === undefined )
             {
-                buttons.fill = array[ 3 ];
+                buttons.fill = exec_result[ 3 ];
             }
 
             print( [
-                'text/fill   : ' + array[ 2 ].match( /^(?:[()<>])?(.*?)(?:[()<>])?$/ )[ 1 ] + '/' + buttons.text_fill ,
+                'text/fill   : ' + exec_result[ 2 ].match( /^(?:[()<>])?(.*?)(?:[()<>])?$/ )[ 1 ] + '/' + buttons.text_fill ,
                 'button-fill : ' + buttons.fill,
             ]);
 
-            // create a button and add it to div.display, array[ 2 ] is the "text"
-            buttons.create( array[ 2 ] );
+            // create a button and add it to div.display, exec_result[ 2 ] is the "text"
+            buttons.create( exec_result[ 2 ] );
 
             var display = doc.class( 'display' );
             clipboard.value = '';
@@ -419,24 +425,29 @@ function Command()
             ]);
         }
         else // badge-font-size (for both badge and button)
-        if( bfs.exec( command ) )
+            if( ( exec_result = bfs.exec( command ) ) )
         {
-            var size = bfs.exec( command )[ 1 ];
+            var size = exec_result[ 1 ];
             if( size === undefined )
             {
                 doc.id( 'badge-font-size' ).style.fontSize  = '15px';
                 print( [
-                    'reset to default',
-                    'Range is from 5 to 99. Default is 15px.'
+                    'reset to default: 15px',
+                    'range is from 5 to 99.'
                 ] );
             }
             else
             {
+                print( [
+                    'set (badge/button/line) font-size to: ' + size + 'px',
+                    'run the command without argument to reset it.'
+                ] );
                 doc.id( 'badge-font-size' ).style.fontSize  = ( size + 'px' );
             }
 
             // update hwf: height, width and font-size
             badges.init();
+            buttons.init();
         }
         else // print a help for bfs command
         if( command.search( /^ *bfs/ ) === 0 )
@@ -491,9 +502,9 @@ function Command()
             ] );
         }
         else // badge delimiter for separation
-        if( DLM.exec( command ) )
+            if( ( exec_result = DLM.exec( command ) ) )
         {
-            badges.delimiter = parseInt( DLM.exec( command )[ 1 ] );
+            badges.delimiter = parseInt( exec_result[ 1 ] );
             lines.delimiter = badges.delimiter;
 
             print( [
@@ -511,9 +522,9 @@ function Command()
             ] );
         }
         else // button-max-width
-        if( BCL.exec( command ) )
+            if( (exec_result = BCL.exec( command ) ) )
         {
-            buttons.char_length = parseInt( BCL.exec( command )[ 1 ] );
+            buttons.char_length = parseInt( exec_result[ 1 ] );
 
             print( [
                 'set button-char-length to ' + buttons.char_length,
@@ -530,9 +541,9 @@ function Command()
             ] );
         }
         else // button-stroke-width
-        if( BSW.exec( command ) )
+            if( ( exec_result = BSW.exec( command ) ) )
         {
-            buttons.stroke_width = parseInt( BSW.exec( command )[ 1 ] )
+            buttons.stroke_width = parseInt( exec_result[ 1 ] )
             print( [
                 'set button-stroke-width to ' + buttons.stroke_width,
                 'you can reset it using BSW=10'
@@ -548,9 +559,9 @@ function Command()
             ] );
         }
         else // button path-stroke
-        if( BS.exec( command ) )
+            if( ( exec_result = BS.exec( command ) ) )
         {
-            buttons.stroke = BS.exec( command )[ 1 ];
+            buttons.stroke = exec_result[ 1 ];
             buttons.stroke = buttons.stroke === 'default' ? '#434343' : buttons.stroke;
 
             text( 'set button-stroke to ' + buttons.stroke );
@@ -566,13 +577,13 @@ function Command()
             ] );
         }
         else // badge-theme
-        if( theme.exec( command ) )
+            if( ( exec_result = theme.exec( command ) ) )
         {
             // git-hub        #CB0000
             // stack overflow #FF8000
             // twitter        #1DA1F2
             // face-book      #4867AA
-            switch( theme.exec( command )[ 1 ] )
+            switch( exec_result[ 1 ] )
             {
                 case 'G':
                 badges.colors[ 1 ] = '#CB0000';
@@ -1043,3 +1054,4 @@ function Command()
         }
     }
 }
+console.log( 'Command.js was loaded.' );
