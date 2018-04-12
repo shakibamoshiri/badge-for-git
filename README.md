@@ -42,6 +42,17 @@
 <br>
 
 <h1 id="prerequisite" align="center" >prerequisite</h1>
+<p align="center">
+  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9899; prerequisite
+  &#9898; <a href="#howto">how-to</a>
+  &#9898; <a href="#feature">feature</a>
+  &#9898; <a href="#troubleshooting">troubleshooting</a>
+  &#9898; <a href="#color-guide">color-guide</a>
+  &#9898; <a href="#dynamic_version">dynamic-version</a>
+  &#9898; <a href="#bottom">bottom</a>
+  &#9898; <a href="#top">top</a>
+</p>
 <br>
 
  1. A font of `monospace` family. Default is: `'DejaVu Sans Mono', 'Source code variable', monospace`
@@ -68,17 +79,22 @@
   <a href="https://k-five.github.io/badge-for-git/" >start creating</a>
 </h1>
 
-<br>
-<h3>Why is that?</h3>  
-
-In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io chat-room</a>
-
-> Hi. Is there any one help me about dynamic badge?  I always get: invalid resource ...
 
 <br>
 <br>
 
 <h1 id="howto" >how to</h1>
+<p align="center">
+  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9898; <a href="#prerequisite">prerequisite</a>
+  &#9899; how-to
+  &#9898; <a href="#feature">feature</a>
+  &#9898; <a href="#troubleshooting">troubleshooting</a>
+  &#9898; <a href="#color-guide">color-guide</a>
+  &#9898; <a href="#dynamic_version">dynamic-version</a>
+  &#9898; <a href="#bottom">bottom</a>
+  &#9898; <a href="#top">top</a>
+</p>
 <br>
 
 You will open <a href="https://k-five.github.io/badge-for-git/">the app</a>, try generating a badge based on a style that is available and its command.
@@ -88,31 +104,31 @@ will be copied to your **clipboard** and that is it. It is ready to use.
 Then you can go to your own repository and create a new file with `svg` extension. like: `for-you.svg`
 Paste the code there and save it. It is ready to use on/in your **README.md** file.
 
-### step 1 generate code:  
+<h3>step 1 generate code:</h3>
 <img src="res/bfg.step.1.png" />
 
 <br>
-### step 2 create new file:  
+<h3>step 2 create new file:</h3>
 <img src="res/bfg.step.2.png" /></td>
 
 <br>
-### step 3 commit new file:  
+<h3>step 3 commit new file:</h3>
 <img src="res/bfg.step.3.png" /></td>
 
 <br>
-### step 4 (optional) click on the SVG file:  
+<h3>step 4 (optional) click on the SVG file:</h3>
 <img src="res/bfg.step.4.png" /></td>
 
 <br>
-### step 5 copy its link:  
+<h3>step 5 copy its link:</h3>
 <img src="res/bfg.step.5.png" /></td>
 
 <br>
-### step 6 add a link to it in your README file:  
+<h3>step 6 add a link to it in your README file:</h3>
 <img src="res/bfg.step.6.png" /></td>
 
 <br>
-### and here it the result:  
+<h3>and here it the result:</h3>
 <img src="res/for-you.svg" /></td>
 
 <br>
@@ -133,9 +149,28 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - prefix/suffix separation for make it even more beautiful  
  - unlimited new ideas (you can create your own style just by adding a single function)  
 
-
-<h3 id="diversity" >diversity</h1>
 <br>
+<h3>Why is that?</h3>  
+
+In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io chat-room</a>
+
+> Hi. Is there any one help me about dynamic badge?  I always get: invalid resource ...
+
+<br>
+<h3 id="diversity" >diversity</h3>
+<p align="center">
+  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9898; <a href="#prerequisite">prerequisite</a>
+  &#9898; <a href="#hoeto">hoe-to</a>
+  &#9899; feature
+  &#9898; <a href="#troubleshooting">troubleshooting</a>
+  &#9898; <a href="#color-guide">color-guide</a>
+  &#9898; <a href="#dynamic_version">dynamic-version</a>
+  &#9898; <a href="#bottom">bottom</a>
+  &#9898; <a href="#top">top</a>
+</p>
+<br>
+
 <table>
     <tr>
       <th>sample</th>
@@ -287,7 +322,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 </table>
 <br>
 
-<h3>unlimited/flexible suffix repetition (regular or empty)</h3>
+<h2>unlimited/flexible suffix repetition (regular or empty)</h2>
 <br>
 
  - `badge 17 'one:two:three:four:five:six:seven:eight:nine:ten'`
@@ -301,7 +336,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - <img src="res/repetition.4.svg" />  
 
 <br>
-<h3>unlimited/flexible change-size</h3>
+<h2>unlimited/flexible change-size</h2>
 <br>
 
  - `bfs 5`  
@@ -312,7 +347,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - <img src="res/change-size.2.svg" />  
 
 <br>
-<h3>unrestricted background/foreground-color</h3>
+<h2>unrestricted background/foreground-color</h2>
 <br>
 
  - `badge 7 '#CB0000:#434343' #CB0000:#434343`
@@ -322,7 +357,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - <img src="res/bg-fg-color.2.svg" />
 
 <br>
-<h1>prefix/suffix separation</h1>
+<h2>prefix/suffix separation</h2>
 <br>
 
  - for styles: 1, 4, 5, 7, 9, 10, 11, 12, 15, 16, 17, 18 and 19  
@@ -340,7 +375,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - <img src="res/separation.4.svg" />  
 
 <br>
-<h3>theme</h3>
+<h2>theme</h2>
 <br>
 
 <h4>Github (default)</h4>
@@ -371,6 +406,17 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 <br>
 
 <h1 id="troubleshooting" align="center" >troubleshooting</h1>
+<p align="center">
+  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9898; <a href="#prerequisite">prerequisite</a>
+  &#9898; <a href="#hoeto">hoe-to</a>
+  &#9898; <a href="#feature">feature</a>
+  &#9899; troubleshooting
+  &#9898; <a href="#color-guide">color-guide</a>
+  &#9898; <a href="#dynamic_version">dynamic-version</a>
+  &#9898; <a href="#bottom">bottom</a>
+  &#9898; <a href="#top">top</a>
+</p>
 <br>
 
 <h3>old browser</h3>
@@ -391,24 +437,36 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - change your browser. Different browsers handle character height/width differently.
 
 
-<h1>handy tips</h1>
+<!-- <h1>handy tips</h1> -->
 
-<h3>horizontal lines</h3>
+<!-- <h3>horizontal lines</h3> -->
 
- - you can create horizontal lines with:  
- - `badge 1 '::::::::::::::::::::::::::::::::::::::::'`  
- - `badge 7 '::::::::::::::::::::::::::::::::::::::::'`  
- - `badge 17 '::::::::::::::::::::::::::::::::::::::::'`  
- - here is the result, (but do NOT do this) it is very inefficient. Instead, use `line` command.
+<!--  - you can create horizontal lines with:   -->
+<!--  - `badge 1 '::::::::::::::::::::::::::::::::::::::::'`   -->
+<!--  - `badge 7 '::::::::::::::::::::::::::::::::::::::::'`   -->
+<!--  - `badge 17 '::::::::::::::::::::::::::::::::::::::::'`   -->
+<!--  - here is the result, (but do NOT do this) it is very inefficient. Instead, use `line` command. -->
 
-<img src="res/line-with-badge-1.svg" />
-<img src="res/line-with-badge-7.svg" />
-<img src="res/line-with-badge-17.svg" />
+<!-- <img src="res/line-with-badge-1.svg" /> -->
+<!-- <img src="res/line-with-badge-7.svg" /> -->
+<!-- <img src="res/line-with-badge-17.svg" /> -->
 
 <br>
 <br>
 
 <h1 id="color_guide" align="center" >color guide</h1>
+<p align="center">
+  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9898; <a href="#prerequisite">prerequisite</a>
+  &#9898; <a href="#hoeto">hoe-to</a>
+  &#9898; <a href="#feature">feature</a>
+  &#9898; <a href="#troubleshooting">troubleshooting</a>
+  &#9899; color-guide
+  &#9898; <a href="#dynamic_version">dynamic-version</a>
+  &#9898; <a href="#bottom">bottom</a>
+  &#9898; <a href="#top">top</a>
+</p>
+<br>
 
 This is a very compact and brief tutorial that you can quickly learn and memorize **hex-color-value**  
 important:  
@@ -545,15 +603,38 @@ if you are wonder/curious about other colors like **yellow** and **orange**, the
 <br>
 <br>
 
-<h1 id="help" align="center">help</h1>
+<h1 id="dynamic_version" align="center">dynamic-version</h1>
+<p align="center">
+  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9898; <a href="#prerequisite">prerequisite</a>
+  &#9898; <a href="#hoeto">hoe-to</a>
+  &#9898; <a href="#feature">feature</a>
+  &#9898; <a href="#troubleshooting">troubleshooting</a>
+  &#9898; <a href="#color_guide">color-guide</a>
+  &#9899; dynamic-version
+  &#9898; <a href="#bottom">bottom</a>
+  &#9898; <a href="#top">top</a>
+</p>
 <br>
 
 <br>
 <br>
 
 <h1 id="license" align="center">license</h1>
+<p align="center">
+  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9898; <a href="#prerequisite">prerequisite</a>
+  &#9898; <a href="#hoeto">hoe-to</a>
+  &#9898; <a href="#feature">feature</a>
+  &#9898; <a href="#troubleshooting">troubleshooting</a>
+  &#9898; <a href="#color_guide">color-guide</a>
+  &#9898; <a href="#dynamic_version">dynamic-version</a>
+  &#9899; bottom
+  &#9898; <a href="#top">top</a>
+</p>
+<br>
 <p id="bottom" align="center">
-  jsMyAdmin copyright &copy; 2018 Shakiba
+  badge-for-git copyright &copy; 2018 Shakiba
   <br>
   <br>
   ▒█▀▄▀█ ▀█▀ ▀▀█▀▀<br>
