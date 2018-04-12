@@ -62,22 +62,22 @@
 
 <h3>assumption</h3>
 
-  1. You are familiar with **Terminal** and with basic commands like: `ls`, `cd`, `cat`, etc.  
-  2. You know how to use/apply colors in **Hex** value like: `#CB0000` or `#434343` 
+  1. You are familiar with **Terminal** and with basic commands like: `ls`, `cd`, `cat`, etc.
+  2. You know how to use/apply colors in **Hex** value like: `#CB0000` or `#434343`
 
 <br>
 <h3>if</h3>
 
- 1. you are a user/member of **Stack-overflow** then first visit: [badge-for-stackoverflow](https://github.com/k-five/badge-for-stackoverflow)  
- 2. you are not familiar with **Hex Color** then read the <a href="#color-guide">color-guide</a> at the bottom or just visit [w3schools-color-ref](https://www.w3schools.com/colors/colors_fs595.asp)  
- 3. you have any questions, suggestions, ideas, doubts, critical they are welcome :) raise an issue  
+ 1. you are a user/member of **Stack-overflow** then first visit: [badge-for-stackoverflow](https://github.com/k-five/badge-for-stackoverflow)
+ 2. you are not familiar with **Hex Color** then read the <a href="#color-guide">color-guide</a> at the bottom or just visit [w3schools-color-ref](https://www.w3schools.com/colors/colors_fs595.asp)
+ 3. you have any questions, suggestions, ideas, doubts, critical they are welcome :) raise an issue
 
-<br>
-<h3>else</h3>
+<!-- <br> -->
+<!-- <h3>else</h3> -->
 
-<h1>
-  <a href="https://k-five.github.io/badge-for-git/" >start creating</a>
-</h1>
+<!-- <h1> -->
+<!--   <a href="https://k-five.github.io/badge-for-git/" >start creating</a> -->
+<!-- </h1> -->
 
 
 <br>
@@ -138,7 +138,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 <p align="center">
   &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
   &#9898; <a href="#prerequisite">prerequisite</a>
-  &#9898; <a href="#hoeto">hoe-to</a>
+  &#9898; <a href="#howto">hoe-to</a>
   &#9899; feature
   &#9898; <a href="#troubleshooting">troubleshooting</a>
   &#9898; <a href="#color-guide">color-guide</a>
@@ -148,20 +148,20 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 </p>
 <br>
 
- - diversity (= about 20 styles)  
- - speed (= fast and straightforward SVG generation) try `badge 1..20 "bfg:bfg"`  
+ - diversity (= about 20 styles)
+ - speed (= fast and straightforward SVG generation) try `badge 1..20 "bfg:bfg"`
  - simplicity (= based on [constant-width font](https://en.wikipedia.org/wiki/Monospaced_font), so no `<scale>`, `<transform>`, `<textLength>`, `<rotate>` )
- - `0%` mouse requirement (I dislike using mouse)  
- - auto-copy source-code to your clipboard  
- - log everything to console (for developers)  
- - unlimited/flexible suffix repetition (regular or empty)  
- - unlimited/flexible change-size  
- - unrestricted background/foreground-color  
- - prefix/suffix separation for make it even more beautiful  
- - unlimited new ideas (you can create your own style just by adding a single function)  
+ - `0%` mouse requirement (I dislike using mouse)
+ - auto-copy source-code to your clipboard
+ - log everything to console (for developers)
+ - unlimited/flexible suffix repetition (regular or empty)
+ - unlimited/flexible change-size
+ - unrestricted background/foreground-color
+ - prefix/suffix separation for make it even more beautiful
+ - unlimited new ideas (you can create your own style just by adding a single function)
 
 <br>
-<h3>Why is that?</h3>  
+<h3>Why is that?</h3>
 
 In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io chat-room</a>
 
@@ -326,25 +326,25 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 <br>
 
  - `badge 17 'one:two:three:four:five:six:seven:eight:nine:ten'`
- - <img src="res/repetition.1.svg" />  
+ - <img src="res/repetition.1.svg" />
  - `badge 17 'one::two::three::four::five'`
- - <img src="res/repetition.2.svg" />  
+ - <img src="res/repetition.2.svg" />
  - `badge 17 '::::::::::::::::::::'`
- - <img src="res/repetition.3.svg" />  
+ - <img src="res/repetition.3.svg" />
  - `'DLM=10'`
  - `badge 17 '::::::::::::::::::::'`
- - <img src="res/repetition.4.svg" />  
+ - <img src="res/repetition.4.svg" />
 
 <br>
 <h2>unlimited/flexible change-size</h2>
 <br>
 
- - `bfs 5`  
- - `badge 20 'made-with:for-you'`  
- - <img src="res/change-size.1.svg" />  
- - `bfs 99`  
- - `badge 20 'made-with:for-you'`  
- - <img src="res/change-size.2.svg" />  
+ - `bfs 5`
+ - `badge 20 'made-with:for-you'`
+ - <img src="res/change-size.1.svg" />
+ - `bfs 99`
+ - `badge 20 'made-with:for-you'`
+ - <img src="res/change-size.2.svg" />
 
 <br>
 <h2>unrestricted background/foreground-color</h2>
@@ -360,19 +360,19 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 <h2>prefix/suffix separation</h2>
 <br>
 
- - for styles: 1, 4, 5, 7, 9, 10, 11, 12, 15, 16, 17, 18 and 19  
- - `DLM=5`  
- - `badge 9 'platfrom:Linux:Windows:Mac'` 
- - <img src="res/separation.1.svg" />  
- - `DLM=30`  
- - `badge 9 'platfrom:Linux:Windows:Mac'` 
- - <img src="res/separation.2.svg" />  
- - `DLM=10`  
+ - for styles: 1, 4, 5, 7, 9, 10, 11, 12, 15, 16, 17, 18 and 19
+ - `DLM=5`
+ - `badge 9 'platfrom:Linux:Windows:Mac'`
+ - <img src="res/separation.1.svg" />
+ - `DLM=30`
+ - `badge 9 'platfrom:Linux:Windows:Mac'`
+ - <img src="res/separation.2.svg" />
+ - `DLM=10`
  - `badge 17 'do::::::you::::::like::::::this'`
- - <img src="res/separation.3.svg" />  
- - `DLM=5`  
+ - <img src="res/separation.3.svg" />
+ - `DLM=5`
  - `badge 12 'do::::::you::::::like::::::this'`
- - <img src="res/separation.4.svg" />  
+ - <img src="res/separation.4.svg" />
 
 <br>
 <h2>theme</h2>
@@ -409,7 +409,7 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 <p align="center">
   &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
   &#9898; <a href="#prerequisite">prerequisite</a>
-  &#9898; <a href="#hoeto">hoe-to</a>
+  &#9898; <a href="#howto">hoe-to</a>
   &#9898; <a href="#feature">feature</a>
   &#9899; troubleshooting
   &#9898; <a href="#color-guide">color-guide</a>
@@ -421,15 +421,15 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 
 <h3>old browser</h3>
 
- - if the code is NOT copied to your clipboard, then use `shc` command (= show-clipboard) it appears at the top-right corner  
- - if you want to see the source-code, hit `alt-v` (= verbose) and then open your console (in you browser). source-code is logged there  
+ - if the code is NOT copied to your clipboard, then use `shc` command (= show-clipboard) it appears at the top-right corner
+ - if you want to see the source-code, hit `alt-v` (= verbose) and then open your console (in you browser). source-code is logged there
 
 <h3>inaccurate result</h3>
 
- - run `df` command and you should get a nice and clean output (not messy)  
- - make sure you have the correct **font**, see the <a href="#prerequisite">prerequisite</a> section above  
- - hit `alt-l` and open your console (in browser) and see if everything is logged appropriately or not  
- - do NOT zoom in/out, instead use `fs` (= font-size) and `bfs` (= badge-font-size) commands  
+ - run `df` command and you should get a nice and clean output (not messy)
+ - make sure you have the correct **font**, see the <a href="#prerequisite">prerequisite</a> section above
+ - hit `alt-l` and open your console (in browser) and see if everything is logged appropriately or not
+ - do NOT zoom in/out, instead use `fs` (= font-size) and `bfs` (= badge-font-size) commands
  - change your browser. Different browsers handle character height/width differently.
 
 <h3>funky mouse movement</h3>
@@ -458,7 +458,7 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 <p align="center">
   &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
   &#9898; <a href="#prerequisite">prerequisite</a>
-  &#9898; <a href="#hoeto">hoe-to</a>
+  &#9898; <a href="#howto">hoe-to</a>
   &#9898; <a href="#feature">feature</a>
   &#9898; <a href="#troubleshooting">troubleshooting</a>
   &#9899; color-guide
@@ -468,30 +468,36 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 </p>
 <br>
 
-This is a very compact and brief tutorial that you can quickly learn and memorize **hex-color-value**  
-important:  
- 1. do NOT think of these values (e.g `#FF0000`) as a single number or single quantity  
- 2. ignore the leading symbol `#`. It is not important  
- 3. separate them in your mind and when you see `#FF0000`, think about `FF`, `00` and `00`  
+This is a very compact and brief tutorial that you can quickly learn and memorize **hex-color-value**
+important:
+<br>
 
-Now, since we can represent any colors by mixing the **red**, **green** and **blue** color, each of this value is  
-for representing one of these main color.  
+ 1. do NOT think of these values (e.g `#FF0000`) as a single number or single quantity
+ 2. ignore the leading symbol `#`. It is not important
+ 3. separate them in your mind and when you see `#FF0000`, think about `FF`, `00` and `00`
 
- - `FF,__,__` is for representing <img src="res/rgb/r/r-FF0000.svg" /> color or in binary `11111111,00000000,00000000` or in decimal `255,0,0`  
- - `__,FF,__` is for representing <img src="res/rgb/g/g-00FF00.svg" /> color or in binary `00000000,11111111,00000000` or in decimal `0,255,0`  
- - `__,__,FF` is for representing <img src="res/rgb/b/b-0000FF.svg" /> color or in binary `00000000,00000000,11111111` of in decimal `0,0,255`  
+Now, since we can represent any colors by mixing the **red**, **green** and **blue** color, each of this value is
+for representing one of these main color.
+<br>
 
-You should (have to) memorize these three colors and the position of each, which comes in this order:  
+ - `FF,__,__` is for representing <img src="res/rgb/r/r-FF0000.svg" /> color or in binary `11111111,00000000,00000000` or in decimal `255,0,0`
+ - `__,FF,__` is for representing <img src="res/rgb/g/g-00FF00.svg" /> color or in binary `00000000,11111111,00000000` or in decimal `0,255,0`
+ - `__,__,FF` is for representing <img src="res/rgb/b/b-0000FF.svg" /> color or in binary `00000000,00000000,11111111` of in decimal `0,0,255`
 
- - `red,green,blue`  or `FF,FF,FF` or `255,255,255`  
+You should (have to) memorize these three colors and the position of each, which comes in this order:
+<br>
 
-Now instead of trying to memorize a number from `0` to `255` or to `FF`, divide 255 by **25** which we get 11 values and then we can memorize these, easily.  
+ - `red,green,blue`  or `FF,FF,FF` or `255,255,255`
+
+Now instead of trying to memorize a number from `0` to `255` or to `FF`, divide 255 by **25** which we get 11 values and then we can memorize these, easily.
 Here is a table and these **11** values which I memorized them. Even if you forgot them you can use the hex value equivalent of
+<br>
 
- - (decimal) 0, 25, 50, 75, 100, 125, 150, 175, 200, 225 and 250 which we can round it up to 255 which can be  
- - (hex    ) 0, 19, 32, 4B, 64,  7D,  96,  AF,  C8,  E1  and FA which we can round it up to FF  
+ - (decimal) 0, 25, 50, 75, 100, 125, 150, 175, 200, 225 and 250 which we can round it up to 255 which can be
+ - (hex    ) 0, 19, 32, 4B, 64,  7D,  96,  AF,  C8,  E1  and FA which we can round it up to FF
 
-Now it is easier to memorize these eleven, other than 255 values (e.g 0 to 255).  
+Now it is easier to memorize these eleven, other than 255 values (e.g 0 to 255).
+<br>
 
  - need bright red, use `FF`
  - need dark red use `C8` or `AF`
@@ -585,17 +591,19 @@ Now it is easier to memorize these eleven, other than 255 values (e.g 0 to 255).
   </tr>
 </table>
 
-Even if these **11** values seem hard for you can divide 256 by **64** and only memorize 5 numbers  
+Even if these **11** values seem hard for you can divide 256 by **64** and only memorize 5 numbers
+<br>
 
- - (decimal) 0, 64, 128, 192, 255  
- - (hex    ) 0, 40, 80,  C0,  FF  
+ - (decimal) 0, 64, 128, 192, 255
+ - (hex    ) 0, 40, 80,  C0,  FF
 
-if you are wonder/curious about other colors like **yellow** and **orange**, they are just created by combing these three **red**, **green** and **blue**  
+if you are wonder/curious about other colors like **yellow** and **orange**, they are just created by combing these three **red**, **green** and **blue**
+<br>
 
- - yellow: full-red and full-green = `#FFFF00`  
- - cyan: full-green and full-blue = `#00FFFF`  
- - purple: full-red and full-blue = `#FF00FF`  
- - orange: full-red and half-green = `#FF8000` (= `FF` and `80` and `00`) or (= 255, 128, 0)  
+ - yellow: full-red and full-green = `#FFFF00`
+ - cyan: full-green and full-blue = `#00FFFF`
+ - purple: full-red and full-blue = `#FF00FF`
+ - orange: full-red and half-green = `#FF8000` (= `FF` and `80` and `00`) or (= 255, 128, 0)
 
 
 <img src="res/line/line5-900px-%23F80.svg" />
@@ -607,7 +615,7 @@ if you are wonder/curious about other colors like **yellow** and **orange**, the
 <p align="center">
   &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
   &#9898; <a href="#prerequisite">prerequisite</a>
-  &#9898; <a href="#hoeto">hoe-to</a>
+  &#9898; <a href="#howto">hoe-to</a>
   &#9898; <a href="#feature">feature</a>
   &#9898; <a href="#troubleshooting">troubleshooting</a>
   &#9898; <a href="#color_guide">color-guide</a>
@@ -624,7 +632,7 @@ if you are wonder/curious about other colors like **yellow** and **orange**, the
 <p align="center">
   &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
   &#9898; <a href="#prerequisite">prerequisite</a>
-  &#9898; <a href="#hoeto">hoe-to</a>
+  &#9898; <a href="#howto">hoe-to</a>
   &#9898; <a href="#feature">feature</a>
   &#9898; <a href="#troubleshooting">troubleshooting</a>
   &#9898; <a href="#color_guide">color-guide</a>
