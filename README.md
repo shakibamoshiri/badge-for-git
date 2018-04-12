@@ -25,8 +25,9 @@
   <img src="res/bfg.banner.gif" />
 </a>
 
-<img src="res/line/line5-900px-%23C8.svg" />
-<h1>Hi</h1>
+
+<h1 id="hi" align="center">Hi</h1>
+<br>
 
  - `badge 6 'type:web-app'`
  - <img src="res/type.svg" />
@@ -37,58 +38,92 @@
  - `badge 6 'support:all modern browsers'`
  - <img src="res/support.svg" />
 
+<br>
+<br>
 
-<img src="res/line/line5-900px-%23C8.svg" />
+<h1 id="prerequisite" align="center" >prerequisite</h1>
+<br>
 
-
-<h1 id="prerequisite">prerequisite</h1>
- 
  1. A font of `monospace` family. Default is: `'DejaVu Sans Mono', 'Source code variable', monospace`
  2. Modern Browsers which can support **SVG** and **CSS Animation**, also **copy to clipboard**
 
-<img src="res/line/line5-900px-%23C8.svg" />
 
-<h1>assumption</h1>
+
+<h3>assumption</h3>
 
   1. You are familiar with **Terminal** and with basic commands like: `ls`, `cd`, `cat`, etc.  
   2. You know how to use/apply colors in **Hex** value like: `#CB0000` or `#434343` 
- 
-<img src="res/line/line5-900px-%23C8.svg" />
 
-<h1>if</h1>
+<br>
+<h3>if</h3>
 
  1. you are a user/member of **Stack-overflow** then first visit: [badge-for-stackoverflow](https://github.com/k-five/badge-for-stackoverflow)  
  2. you are not familiar with **Hex Color** then read the <a href="#color-guide">color-guide</a> at the bottom or just visit [w3schools-color-ref](https://www.w3schools.com/colors/colors_fs595.asp)  
  3. you have any questions, suggestions, ideas, doubts, critical they are welcome :) raise an issue  
 
-
-<h1>else</h1>
+<br>
+<h3>else</h3>
 
 <h1>
   <a href="https://k-five.github.io/badge-for-git/" >start creating</a>
 </h1>
 
-<img src="res/line/line5-900px-%23C8.svg" />
-
-<h1>What is there?</h1>
-
-This is an application based on my previous app <a href="https://github.com/k-five/red-cursor">red-cursor<a/> which helps you generate some badges  
-that you can use them on your **README.md** file  
-
-<img src="res/line/line5-900px-%23C8.svg" />
-
-<h1>Why is that?</h1>  
+<br>
+<h3>Why is that?</h3>  
 
 In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io chat-room</a>
 
 > Hi. Is there any one help me about dynamic badge?  I always get: invalid resource ...
 
+<br>
+<br>
 
-<h1>What does it have?</h1>
+<h1 id="howto" >how to</h1>
+<br>
+
+You will open <a href="https://k-five.github.io/badge-for-git/">the app</a>, try generating a badge based on a style that is available and its command.
+For example: `badge 20 "made-with:for-you"`  based on style 20 will generate a SVG file and you
+will see it on the screen as well. Meanwhile the last SVG file you have created, its **source-code**
+will be copied to your **clipboard** and that is it. It is ready to use.
+Then you can go to your own repository and create a new file with `svg` extension. like: `for-you.svg`
+Paste the code there and save it. It is ready to use on/in your **README.md** file.
+
+### step 1 generate code:  
+<img src="res/bfg.step.1.png" />
+
+<br>
+### step 2 create new file:  
+<img src="res/bfg.step.2.png" /></td>
+
+<br>
+### step 3 commit new file:  
+<img src="res/bfg.step.3.png" /></td>
+
+<br>
+### step 4 (optional) click on the SVG file:  
+<img src="res/bfg.step.4.png" /></td>
+
+<br>
+### step 5 copy its link:  
+<img src="res/bfg.step.5.png" /></td>
+
+<br>
+### step 6 add a link to it in your README file:  
+<img src="res/bfg.step.6.png" /></td>
+
+<br>
+### and here it the result:  
+<img src="res/for-you.svg" /></td>
+
+<br>
+<br>
+
+<h1 id="feature" align="center">feature</h1>
+<br>
 
  - diversity (= about 20 styles)  
  - speed (= fast and straightforward SVG generation) try `badge 1..20 "bfg:bfg"`  
- - simplicity (= based on [constant-width font](https://en.wikipedia.org/wiki/Monospaced_font), so no `<scale>`, `<transform>`, `<textLength>`, `<rotate>` )  
+ - simplicity (= based on [constant-width font](https://en.wikipedia.org/wiki/Monospaced_font), so no `<scale>`, `<transform>`, `<textLength>`, `<rotate>` )
  - `0%` mouse requirement (I dislike using mouse)  
  - auto-copy source-code to your clipboard  
  - log everything to console (for developers)  
@@ -99,40 +134,8 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
  - unlimited new ideas (you can create your own style just by adding a single function)  
 
 
-<h1 id="howto" >What should I do?</h1>
-
-You will open <a href="https://k-five.github.io/badge-for-git/">the app</a>, try generating a badge based on a style that is available and its command.  
-For example: `badge 20 "made-with:for-you"`  based on style 20 will generate a SVG file and you  
-will see it on the screen as well. Meanwhile the last SVG file you have created, its **source-code**  
-will be copied to your **clipboard** and that is it. It is ready to use.  
-Then you can go to your own repository and create a new file with `svg` extension. like: `for-you.svg`  
-Paste the code there and save it. It is ready to use on/in your **README.md** file.  
-
-### step 1 generate code:  
-<img src="res/bfg.step.1.png" />
-
-### step 2 create new file:  
-<img src="res/bfg.step.2.png" /></td>
-
-### step 3 commit new file:  
-<img src="res/bfg.step.3.png" /></td>
-
-### step 4 (optional) click on the SVG file:  
-<img src="res/bfg.step.4.png" /></td>
-
-### step 5 copy its link:  
-<img src="res/bfg.step.5.png" /></td>
-
-### step 6 add a link to it in your README file:  
-<img src="res/bfg.step.6.png" /></td>
-
-### and here it the result:  
-<img src="res/for-you.svg" /></td>
-
-<img src="res/line/line5-900px-%23C8.svg" />
-
-<h1>diversity</h1>  
-
+<h3 id="diversity" >diversity</h1>
+<br>
 <table>
     <tr>
       <th>sample</th>
@@ -282,10 +285,10 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
       <td>No</td>
     </tr>
 </table>
+<br>
 
-<img src="res/line/line5-900px-%23C8.svg" />
-
-<h1>unlimited/flexible suffix repetition (regular or empty)</h1>
+<h3>unlimited/flexible suffix repetition (regular or empty)</h3>
+<br>
 
  - `badge 17 'one:two:three:four:five:six:seven:eight:nine:ten'`
  - <img src="res/repetition.1.svg" />  
@@ -296,10 +299,10 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `'DLM=10'`
  - `badge 17 '::::::::::::::::::::'`
  - <img src="res/repetition.4.svg" />  
- 
-<img src="res/line/line5-900px-%23C8.svg" />
 
-<h1>unlimited/flexible change-size</h1>
+<br>
+<h3>unlimited/flexible change-size</h3>
+<br>
 
  - `bfs 5`  
  - `badge 20 'made-with:for-you'`  
@@ -308,9 +311,9 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `badge 20 'made-with:for-you'`  
  - <img src="res/change-size.2.svg" />  
 
-<img src="res/line/line5-900px-%23C8.svg" />
-
-<h1>unrestricted background/foreground-color</h1>
+<br>
+<h3>unrestricted background/foreground-color</h3>
+<br>
 
  - `badge 7 '#CB0000:#434343' #CB0000:#434343`
  - <img src="res/bg-fg-color.1.svg" />
@@ -318,9 +321,9 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `badge 7 '#CB0000:#434343:and text color is #FF0'`
  - <img src="res/bg-fg-color.2.svg" />
 
-<img src="res/line/line5-900px-%23C8.svg" />
-
+<br>
 <h1>prefix/suffix separation</h1>
+<br>
 
  - for styles: 1, 4, 5, 7, 9, 10, 11, 12, 15, 16, 17, 18 and 19  
  - `DLM=5`  
@@ -336,36 +339,39 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - `badge 12 'do::::::you::::::like::::::this'`
  - <img src="res/separation.4.svg" />  
 
-<img src="res/line/line5-900px-%23C8.svg" /> 
+<br>
+<h3>theme</h3>
+<br>
 
-<h1>theme</h1>
-
-<h3>Github (default)</h3>
+<h4>Github (default)</h4>
 
  - `bt G`
  - `badge 9 'theme:G:github'`
  - <img src="res/G.svg" />
 
-<h3>Stack-overflow</h3>
+<h4>Stack-overflow</h4>
 
  - `bt S`
  - `badge 9 'theme:S:stack-overflow'`
  - <img src="res/S.svg" />
 
-<h3>Twitter</h3>
+<h4>Twitter</h4>
 
  - `bt T`
  - `badge 9 'theme:T:twitter'`
  - <img src="res/T.svg" />
 
-<h3>Facebook</h3>
+<h4>Facebook</h4>
 
  - `bt F`
  - `badge 9 'theme:F:facebook'`
  - <img src="res/F.svg" />
 
-<img src="res/line/line5-900px-%23C8.svg" />
-<h1>troubleshooting</h1>
+<br>
+<br>
+
+<h1 id="troubleshooting" align="center" >troubleshooting</h1>
+<br>
 
 <h3>old browser</h3>
 
@@ -384,7 +390,7 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 
  - change your browser. Different browsers handle character height/width differently.
 
-<img src="res/line/line5-900px-%23C8.svg" />
+
 <h1>handy tips</h1>
 
 <h3>horizontal lines</h3>
@@ -399,9 +405,10 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 <img src="res/line-with-badge-7.svg" />
 <img src="res/line-with-badge-17.svg" />
 
+<br>
+<br>
 
-<img src="res/line/line5-900px-%23C8.svg" />
-<h1 id="color-guide">color guide</h1>
+<h1 id="color_guide" align="center" >color guide</h1>
 
 This is a very compact and brief tutorial that you can quickly learn and memorize **hex-color-value**  
 important:  
@@ -430,6 +437,8 @@ Now it is easier to memorize these eleven, other than 255 values (e.g 0 to 255).
 
  - need bright red, use `FF`
  - need dark red use `C8` or `AF`
+
+<br>
 
 <table>
   <tr>
@@ -532,11 +541,22 @@ if you are wonder/curious about other colors like **yellow** and **orange**, the
 
 
 <img src="res/line/line5-900px-%23F80.svg" />
-<h1 id="help">help</h1>
 
+<br>
+<br>
 
-<img src="res/line/line5-900px-%23C8.svg" />
-<h1 id="license">license</h1>
+<h1 id="help" align="center">help</h1>
+<br>
 
-badge-for-git copyright &copy; 2018 Shakiba  
-MIT LICENSE  
+<br>
+<br>
+
+<h1 id="license" align="center">license</h1>
+<p id="bottom" align="center">
+  jsMyAdmin copyright &copy; 2018 Shakiba
+  <br>
+  <br>
+  ▒█▀▄▀█ ▀█▀ ▀▀█▀▀<br>
+  ▒█▒█▒█ ▒█░ ░▒█░░<br>
+  ▒█░░▒█ ▄█▄ ░▒█░░<br>
+</p>
