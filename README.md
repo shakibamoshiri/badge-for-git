@@ -83,7 +83,7 @@
 <br>
 <br>
 
-<h1 id="howto" >how to</h1>
+<h1 id="howto" align="center" >how to</h1>
 <p align="center">
   &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
   &#9898; <a href="#prerequisite">prerequisite</a>
@@ -135,6 +135,17 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 <br>
 
 <h1 id="feature" align="center">feature</h1>
+<p align="center">
+  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9898; <a href="#prerequisite">prerequisite</a>
+  &#9898; <a href="#hoeto">hoe-to</a>
+  &#9899; feature
+  &#9898; <a href="#troubleshooting">troubleshooting</a>
+  &#9898; <a href="#color-guide">color-guide</a>
+  &#9898; <a href="#dynamic_version">dynamic-version</a>
+  &#9898; <a href="#bottom">bottom</a>
+  &#9898; <a href="#top">top</a>
+</p>
 <br>
 
  - diversity (= about 20 styles)  
@@ -157,18 +168,7 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 > Hi. Is there any one help me about dynamic badge?  I always get: invalid resource ...
 
 <br>
-<h3 id="diversity" >diversity</h3>
-<p align="center">
-  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
-  &#9898; <a href="#prerequisite">prerequisite</a>
-  &#9898; <a href="#hoeto">hoe-to</a>
-  &#9899; feature
-  &#9898; <a href="#troubleshooting">troubleshooting</a>
-  &#9898; <a href="#color-guide">color-guide</a>
-  &#9898; <a href="#dynamic_version">dynamic-version</a>
-  &#9898; <a href="#bottom">bottom</a>
-  &#9898; <a href="#top">top</a>
-</p>
+<h2 id="diversity" >diversity</h2>
 <br>
 
 <table>
