@@ -106,12 +106,11 @@ For example:
 
  - `badge 20 "made-with:for-you"`
 
-<br>
 based on style 20 will generate a SVG file and you
-will see it on the screen as well. Meanwhile the last SVG file you have created, its **source-code**
-will be copied to your **clipboard** and that is it. It is ready to use.
+will see it on the screen as well. Meanwhile the last SVG file you have created, its <strong>source-code</strong>
+will be copied to your <strong>clipboard</strong> and that is it. It is ready to use.
 Then you can go to your own repository and create a new file with `svg` extension. like: `for-you.svg`
-Paste the code there and save it. It is ready to use on/in your **README.md** file.
+Paste the code there and save it. It is ready to use on/in your <strong>README.md</strong> file.
 
 <h3>step 1 generate code:</h3>
 <img src="res/bfg.step.1.png" />
