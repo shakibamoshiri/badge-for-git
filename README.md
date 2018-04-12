@@ -124,11 +124,11 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
 <img src="res/bfg.step.5.png" /></td>
 
 <br>
-<h3>step 6 add a link to it in your README file:</h3>
+<h3>step 6 add that link into your README file:</h3>
 <img src="res/bfg.step.6.png" /></td>
 
 <br>
-<h3>and here it the result:</h3>
+<h3>and here is the result:</h3>
 <img src="res/for-you.svg" /></td>
 
 <br>
