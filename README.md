@@ -1,30 +1,33 @@
-<p  align="center" >
-<a href="https://k-five.github.io/badge-for-git/">
-<img src="https://github.com/k-five/badge-for-git/blob/master/button/create.left.side.svg" />
-</a>
- <a href="#howto">
-<img src="https://github.com/k-five/badge-for-git/blob/master/button/howto.svg" />
-</a>
-<a href="https://github.com/k-five/badge-for-git/wiki/Samples#button">
-<img src="https://github.com/k-five/badge-for-git/blob/master/button/button.svg" />
-</a>
-<a href="https://github.com/k-five/badge-for-git/wiki/Samples#badge">
-<img src="https://github.com/k-five/badge-for-git/blob/master/button/badge.svg" />
-</a>
-<a href="https://github.com/k-five/badge-for-git/wiki/Samples#line">
-<img src="https://github.com/k-five/badge-for-git/blob/master/button/line.svg" />
-</a>
- <a href="#license">
-<img src="https://github.com/k-five/badge-for-git/blob/master/button/license.svg" />
-</a>
+<p id="top" align="center" >
+  <a href="https://k-five.github.io/badge-for-git/">
+    <img src="https://github.com/k-five/badge-for-git/blob/master/button/create.left.side.svg" />
+  </a>
+  <a href="#howto">
+    <img src="https://github.com/k-five/badge-for-git/blob/master/button/howto.svg" />
+  </a>
+  <a href="https://github.com/k-five/badge-for-git/wiki/Samples#button">
+    <img src="https://github.com/k-five/badge-for-git/blob/master/button/button.svg" />
+  </a>
+  <a href="https://github.com/k-five/badge-for-git/wiki/Samples#badge">
+    <img src="https://github.com/k-five/badge-for-git/blob/master/button/badge.svg" />
+  </a>
+  <a href="https://github.com/k-five/badge-for-git/wiki/Samples#line">
+    <img src="https://github.com/k-five/badge-for-git/blob/master/button/line.svg" />
+  </a>
+  <a href="#license">
+    <img src="https://github.com/k-five/badge-for-git/blob/master/button/license.svg" />
+  </a>
 </p>
 
-
+<br>
+<br>
 
 <a href="https://k-five.github.io/badge-for-git/" >
   <img src="res/bfg.banner.gif" />
 </a>
 
+<br>
+<br>
 
 <h1 id="hi" align="center">Hi</h1>
 <br>
@@ -54,23 +57,23 @@
   &#9898; <a href="#top">top</a>
 </p>
 <br>
+<h3>should have:</h3>
 
  1. A font of `monospace` family. Default is: `'DejaVu Sans Mono', 'Source code variable', monospace`
  2. Modern Browsers which can support **SVG** and **CSS Animation**, also **copy to clipboard**
 
 
-
-<h3>assumption</h3>
+<h3>assumption:</h3>
 
   1. You are familiar with **Terminal** and with basic commands like: `ls`, `cd`, `cat`, etc.
   2. You know how to use/apply colors in **Hex** value like: `#CB0000` or `#434343`
 
-<br>
-<h3>if</h3>
+
+<h3>if:</h3>
 
  1. you are a user/member of **Stack-overflow** then first visit: [badge-for-stackoverflow](https://github.com/k-five/badge-for-stackoverflow)
- 2. you are not familiar with **Hex Color** then read the <a href="#color-guide">color-guide</a> at the bottom or just visit [w3schools-color-ref](https://www.w3schools.com/colors/colors_fs595.asp)
- 3. you have any questions, suggestions, ideas, doubts, critical they are welcome :) raise an issue
+ 2. you are not familiar with **Hex Color** then read the <a href="#color-guide">color-guide</a> at the bottom or just visit <a href="https://www.w3schools.com/colors/colors_fs595.asp">w3schools-color-reference</a>
+ 3. you have any questions, suggestions, ideas, doubts, critical they are welcome :) <strong>raise an issue</strong>
 
 <!-- <br> -->
 <!-- <h3>else</h3> -->
@@ -98,7 +101,13 @@
 <br>
 
 You will open <a href="https://k-five.github.io/badge-for-git/">the app</a>, try generating a badge based on a style that is available and its command.
-For example: `badge 20 "made-with:for-you"`  based on style 20 will generate a SVG file and you
+For example:
+<br>
+
+ - `badge 20 "made-with:for-you"`
+
+<br>
+based on style 20 will generate a SVG file and you
 will see it on the screen as well. Meanwhile the last SVG file you have created, its **source-code**
 will be copied to your **clipboard** and that is it. It is ready to use.
 Then you can go to your own repository and create a new file with `svg` extension. like: `for-you.svg`
@@ -151,14 +160,14 @@ Paste the code there and save it. It is ready to use on/in your **README.md** fi
  - diversity (= about 20 styles)
  - speed (= fast and straightforward SVG generation) try `badge 1..20 "bfg:bfg"`
  - simplicity (= based on [constant-width font](https://en.wikipedia.org/wiki/Monospaced_font), so no `<scale>`, `<transform>`, `<textLength>`, `<rotate>` )
- - `0%` mouse requirement (I dislike using mouse)
+ - `0%` mouse requirement
  - auto-copy source-code to your clipboard
  - log everything to console (for developers)
  - unlimited/flexible suffix repetition (regular or empty)
  - unlimited/flexible change-size
  - unrestricted background/foreground-color
  - prefix/suffix separation for make it even more beautiful
- - unlimited new ideas (you can create your own style just by adding a single function)
+ - unlimited new ideas (you can create your own style just by adding a single function in `JS`)
 
 <br>
 <h3>Why is that?</h3>
@@ -640,7 +649,6 @@ if you are wonder/curious about other colors like **yellow** and **orange**, the
   &#9899; bottom
   &#9898; <a href="#top">top</a>
 </p>
-<br>
 <p id="bottom" align="center">
   badge-for-git copyright &copy; 2018 Shakiba
   <br>
