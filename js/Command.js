@@ -1026,7 +1026,7 @@ function Command()
         {
             doc.id( 'terminal' ).removeChild( guide );
             var copyright = document.createElement( 'SPAN' );
-            copyright.innerHTML = '<p id="copyright">badge-for-git Copyright &copy; ' + ( ( Date().toString().split( ' ' ) )[3] ) + ' Shakiba <sup><a href="https://github.com/k-five/red-cursor" target="_blank">src</a></sup></p>';
+            copyright.innerHTML = '<p id="copyright">badge-for-git Copyright &copy; ' + ( ( Date().toString().split( ' ' ) )[3] ) + ' Shakiba <sup><a href="https://github.com/k-five/badge-for-git" target="_blank">src</a></sup></p>';
             document.body.appendChild( copyright );
         }
     } // end of help
