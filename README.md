@@ -388,25 +388,25 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 
 <h4>Github (default)</h4>
 
- - `bt G`
+ - `theme G`
  - `badge 9 'theme:G:github'`
  - <img src="res/G.svg" />
 
 <h4>Stack-overflow</h4>
 
- - `bt S`
+ - `theme S`
  - `badge 9 'theme:S:stack-overflow'`
  - <img src="res/S.svg" />
 
 <h4>Twitter</h4>
 
- - `bt T`
+ - `theme T`
  - `badge 9 'theme:T:twitter'`
  - <img src="res/T.svg" />
 
 <h4>Facebook</h4>
 
- - `bt F`
+ - `theme F`
  - `badge 9 'theme:F:facebook'`
  - <img src="res/F.svg" />
 
