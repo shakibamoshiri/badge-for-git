@@ -32,13 +32,13 @@
 <h1 id="hi" align="center">Hi</h1>
 <br>
 
- - `badge 6 'type:web-app'`
+ - `badge 2 'type:web-app'`
  - <img src="res/type.svg" />
- - `badge 6 'birth:Date()'`
+ - `badge 2 'birth:Date()'`
  - <img src="res/birth.svg" />
- - `badge 6 'name:badge for git(hub)'`
+ - `badge 2 'name:badge for git(hub)'`
  - <img src="res/name.svg" />
- - `badge 6 'support:all modern browsers'`
+ - `badge 2 'support:all modern browsers'`
  - <img src="res/support.svg" />
 
 <br>
@@ -197,14 +197,14 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 <h2>unlimited/flexible suffix repetition (regular or empty)</h2>
 <br>
 
- - `badge 17 'one:two:three:four:five:six:seven:eight:nine:ten'`
+ - `badge 9 'one:two:three:four:five:six:seven:eight:nine:ten'`
  - <img src="res/repetition.1.svg" />
- - `badge 17 'one::two::three::four::five'`
+ - `badge 9 'one::two::three::four::five'`
  - <img src="res/repetition.2.svg" />
- - `badge 17 '::::::::::::::::::::'`
+ - `badge 9 '::::::::::::::::::::'`
  - <img src="res/repetition.3.svg" />
  - `'DLM=10'`
- - `badge 17 '::::::::::::::::::::'`
+ - `badge 9 '::::::::::::::::::::'`
  - <img src="res/repetition.4.svg" />
 
 <br>
@@ -212,38 +212,38 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 <br>
 
  - `bfs 5`
- - `badge 20 'made-with:for-you'`
+ - `badge 10 'made-with:for-you'`
  - <img src="res/change-size.1.svg" />
  - `bfs 99`
- - `badge 20 'made-with:for-you'`
+ - `badge 10 'made-with:for-you'`
  - <img src="res/change-size.2.svg" />
 
 <br>
 <h2>unrestricted background/foreground-color</h2>
 <br>
 
- - `badge 7 '#CB0000:#434343' #CB0000:#434343`
+ - `badge 3 '#CB0000:#434343' #CB0000:#434343`
  - <img src="res/bg-fg-color.1.svg" />
  - `BTC=#FF0`
- - `badge 7 '#CB0000:#434343:and text color is #FF0'`
+ - `badge 3 '#CB0000:#434343:and text color is #FF0'`
  - <img src="res/bg-fg-color.2.svg" />
 
 <br>
 <h2>prefix/suffix separation</h2>
 <br>
 
- - for styles: 1, 4, 5, 7, 9, 10, 11, 12, 15, 16, 17, 18 and 19
+ - for styles: 1, 3, 5, 6, 7, 8, and 9
  - `DLM=5`
- - `badge 9 'platfrom:Linux:Windows:Mac'`
+ - `badge 5 'platfrom:Linux:Windows:Mac'`
  - <img src="res/separation.1.svg" />
  - `DLM=30`
- - `badge 9 'platfrom:Linux:Windows:Mac'`
+ - `badge 5 'platfrom:Linux:Windows:Mac'`
  - <img src="res/separation.2.svg" />
  - `DLM=10`
- - `badge 17 'do::::::you::::::like::::::this'`
+ - `badge 9 'do::::::you::::::like::::::this'`
  - <img src="res/separation.3.svg" />
  - `DLM=5`
- - `badge 12 'do::::::you::::::like::::::this'`
+ - `badge 8 'do::::::you::::::like::::::this'`
  - <img src="res/separation.4.svg" />
 
 <br>
