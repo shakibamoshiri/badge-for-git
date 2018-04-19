@@ -80,16 +80,6 @@ function Path()
                 '8.svg' : 'media',
                 '9.svg' : 'media',
                 '10.svg' : 'media',
-                '11.svg' : 'media',
-                '12.svg' : 'media',
-                '13.svg' : 'media',
-                '14.svg' : 'media',
-                '15.svg' : 'media',
-                '16.svg' : 'media',
-                '17.svg' : 'media',
-                '18.svg' : 'media',
-                '19.svg' : 'media',
-                '20.svg' : 'media',
             },
         };
 
@@ -221,16 +211,6 @@ function Path()
                 '8.svg' : 'resizable=yes,top=200,left=200,width=400,height=10',
                 '9.svg' : 'resizable=yes,top=200,left=200,width=400,height=10',
                 '10.svg' : 'resizable=yes,top=200,left=200,width=400,height=10',
-                '11.svg' : 'resizable=yes,top=200,left=200,width=400,height=10',
-                '12.svg' : 'resizable=yes,top=200,left=200,width=400,height=10',
-                '13.svg' : 'resizable=yes,top=200,left=200,width=400,height=10',
-                '14.svg' : 'resizable=yes,top=200,left=200,width=400,height=10',
-                '15.svg' : 'resizable=yes,top=200,left=200,width=400,height=10',
-                '16.svg' : 'resizable=yes,top=200,left=200,width=400,height=10',
-                '17.svg' : 'resizable=yes,top=200,left=200,width=400,height=10',
-                '18.svg' : 'resizable=yes,top=200,left=200,width=400,height=10',
-                '19.svg' : 'resizable=yes,top=200,left=200,width=400,height=10',
-                '20.svg' : 'resizable=yes,top=200,left=200,width=400,height=10',
             },
         };
 
