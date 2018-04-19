@@ -179,155 +179,19 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 <h2 id="diversity" >diversity</h2>
 <br>
 
-<table>
-    <tr>
-      <th>sample</th>
-      <th>suffix-repetition</th>
-      <th>change-size</th>
-      <th>bg/fg-color</th>
-      <th>separation</th>
-    </tr>
-    <tr>
-      <td><img src="badge/1.svg" /></td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-    <tr>
-      <td><img src="badge/2.svg" /></td>
-      <td> </td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>No</td>
-    </tr>
-    <tr>
-      <td><img src="badge/3.svg" /></td>
-      <td> </td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>No</td>
-    </tr>
-    <tr>
-      <td><img src="badge/4.svg" /></td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-    <tr>
-    <td><img src="badge/5.svg" /></td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-    <tr>
-      <td><img src="badge/6.svg" /></td>
-      <td> </td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>No</td>
-    </tr>
-    <tr>
-      <td><img src="badge/7.svg" /></td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-    <tr>
-      <td><img src="badge/8.svg" /></td>
-      <td> </td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>No</td>
-    </tr>
-    <tr>
-      <td><img src="badge/9.svg" /></td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-    <tr>
-      <td><img src="badge/10.svg" /></td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-    <tr>
-      <td><img src="badge/11.svg" /></td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-    <tr>
-      <td><img src="badge/12.svg" /></td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-    <tr>
-      <td><img src="badge/13.svg" /></td>
-      <td> </td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>No</td>
-    </tr>
-    <tr>
-      <td><img src="badge/14.svg" /></td>
-      <td> </td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>No</td>
-    </tr>
-    <tr>
-      <td><img src="badge/15.svg" /></td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-    <tr>
-      <td><img src="badge/16.svg" /></td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-    <tr>
-      <td><img src="badge/17.svg" /></td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-    <tr>
-      <td><img src="badge/18.svg" /></td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-    <tr>
-      <td><img src="badge/19.svg" /></td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-    <tr>
-      <td><img src="badge/20.svg" /></td>
-      <td>No</td>
-      <td>No</td>
-      <td>Yes</td>
-      <td>No</td>
-    </tr>
-</table>
+| style | command                   | result                     | suffix-repetition | separation |
+|-------|---------------------------|----------------------------|-------------------|------------|
+|     1 | `badge 1 "prefix:suffix`  | <img src="badge/1.svg" />  | &#10004;          | &#10004;   |
+|     2 | `badge 2 "prefix:suffix`  | <img src="badge/2.svg" />  | &#10005;          | &#10005;   |
+|     3 | `badge 3 "prefix:suffix`  | <img src="badge/3.svg" />  | &#10004;          | &#10004;   |
+|     4 | `badge 4 "prefix:suffix`  | <img src="badge/4.svg" />  | &#10005;          | &#10005;   |
+|     5 | `badge 5 "prefix:suffix`  | <img src="badge/5.svg" />  | &#10004;          | &#10004;   |
+|     6 | `badge 6 "prefix:suffix`  | <img src="badge/6.svg" />  | &#10004;          | &#10004;   |
+|     7 | `badge 7 "prefix:suffix`  | <img src="badge/7.svg" />  | &#10004;          | &#10004;   |
+|     8 | `badge 8 "prefix:suffix`  | <img src="badge/8.svg" />  | &#10004;          | &#10004;   |
+|     9 | `badge 9 "prefix:suffix`  | <img src="badge/9.svg" />  | &#10004;          | &#10004;   |
+|    10 | `badge 10 "prefix:suffix` | <img src="badge/10.svg" /> | &#10005;          | &#10005;   |
+
 <br>
 
 <h2>unlimited/flexible suffix repetition (regular or empty)</h2>
