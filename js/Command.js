@@ -21,7 +21,7 @@ function Command()
     var open = /^ *open *([^ ]+)? *;?$/;
 
     // badges command
-    var badge = /^ *badge  *([1-9]|10|1[1-9]|20)(\.\.(?:[1-9]|10|1[1-9]|20))?  *(["'])((?:(?!\3).)*:(?:(?!\3).)*)\3 *(?:(default|#[0-9a-f]{3,6}):(default|#[0-9a-f]{3,6}))? *;?/i;
+    var badge = /^ *badge  *([1-9]|10)(\.\.(?:[1-9]|10))?  *(["'])((?:(?!\3).)*:(?:(?!\3).)*)\3 *(?:(default|#[0-9a-f]{3,6}):(default|#[0-9a-f]{3,6}))? *;?/i;
     // 0 = all
     // 1 = 1-20
     // 2 = ..1-20 or undefined
@@ -181,7 +181,7 @@ function Command()
             this.help();
         }
         else
-            if( ( exec_result = open.exec( command ) ) )
+        if( ( exec_result = open.exec( command ) ) )
         {
             var media = exec_result[ 1 ];
             if( media === undefined  )
@@ -204,7 +204,7 @@ function Command()
             }
         }
         else
-            if( ( exec_result = badge.exec( command ) ) )
+        if( ( exec_result = badge.exec( command ) ) )
         {
             // var array = badge.exec( command );
 
@@ -227,7 +227,7 @@ function Command()
                 'suffix: "' + ps.slice( 1, ps.length ) + '" color: ' + exec_result[ 6 ],
             ] );
 
-            // for 1..20
+            // for 1..10
             if( end > begin )
             {
                 while( begin <= end )
@@ -238,7 +238,7 @@ function Command()
                     ++begin;
                 }
             }
-            // for 20..1
+            // for 10..1
             else
             if( end < begin )
             {
