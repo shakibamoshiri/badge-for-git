@@ -104,9 +104,9 @@ You will open <a href="https://k-five.github.io/badge-for-git/">the app</a>, try
 For example:
 <br>
 
- - `badge 20 "made-with:for-you"`
+ - `badge 10 "made-with:for-you"`
 
-based on style 20 will generate a SVG file and you
+based on style 10 will generate a SVG file and you
 will see it on the screen as well. Meanwhile the last SVG file you have created, its <strong>source-code</strong>
 will be copied to your <strong>clipboard</strong> and that is it. It is ready to use.
 Then you can go to your own repository and create a new file with `svg` extension. like: `for-you.svg`
@@ -156,8 +156,11 @@ Paste the code there and save it. It is ready to use on/in your <strong>README.m
 </p>
 <br>
 
- - diversity (= about 20 styles)
- - speed (= fast and straightforward SVG generation) try `badge 1..20 "bfg:bfg"`
+ - diversity
+   - 10 styles for <a href="#diversity">badge</a>
+   - 7 styles for <a href="https://github.com/k-five/badge-for-git/wiki/Samples#button">button</a>
+   - 5 style for <a href="https://github.com/k-five/badge-for-git/wiki/Samples#line">line</a>
+ - speed (= fast and straightforward SVG generation) try `badge 1..10 "bfg:bfg"`
  - simplicity (= based on [constant-width font](https://en.wikipedia.org/wiki/Monospaced_font), so no `<scale>`, `<transform>`, `<textLength>`, `<rotate>` )
  - `0%` mouse requirement
  - auto-copy source-code to your clipboard
