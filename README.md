@@ -1,28 +1,28 @@
 <p id="top" align="center" >
-  <a href="https://k-five.github.io/badge-for-git/">
-    <img src="https://github.com/k-five/badge-for-git/blob/master/button/create.left.side.svg" />
+  <a href="https://shakibamoshiri.github.io/badge-for-git/">
+    <img src="https://github.com/shakibamoshiri/badge-for-git/blob/master/button/create.left.side.svg" />
   </a>
   <a href="#howto">
-    <img src="https://github.com/k-five/badge-for-git/blob/master/button/howto.svg" />
+    <img src="https://github.com/shakibamoshiri/badge-for-git/blob/master/button/howto.svg" />
   </a>
-  <a href="https://github.com/k-five/badge-for-git/wiki/Samples#button">
-    <img src="https://github.com/k-five/badge-for-git/blob/master/button/button.svg" />
+  <a href="https://github.com/shakibamoshiri/badge-for-git/wiki/Samples#button">
+    <img src="https://github.com/shakibamoshiri/badge-for-git/blob/master/button/button.svg" />
   </a>
-  <a href="https://github.com/k-five/badge-for-git/wiki/Samples#badge">
-    <img src="https://github.com/k-five/badge-for-git/blob/master/button/badge.svg" />
+  <a href="https://github.com/shakibamoshiri/badge-for-git/wiki/Samples#badge">
+    <img src="https://github.com/shakibamoshiri/badge-for-git/blob/master/button/badge.svg" />
   </a>
-  <a href="https://github.com/k-five/badge-for-git/wiki/Samples#line">
-    <img src="https://github.com/k-five/badge-for-git/blob/master/button/line.svg" />
+  <a href="https://github.com/shakibamoshiri/badge-for-git/wiki/Samples#line">
+    <img src="https://github.com/shakibamoshiri/badge-for-git/blob/master/button/line.svg" />
   </a>
   <a href="#license">
-    <img src="https://github.com/k-five/badge-for-git/blob/master/button/license.svg" />
+    <img src="https://github.com/shakibamoshiri/badge-for-git/blob/master/button/license.svg" />
   </a>
 </p>
 
 <br>
 <br>
 
-<a href="https://k-five.github.io/badge-for-git/" >
+<a href="https://shakibamoshiri.github.io/badge-for-git/" >
   <img src="res/bfg.banner.gif" />
 </a>
 
@@ -46,7 +46,7 @@
 
 <h1 id="prerequisite" align="center" >prerequisite</h1>
 <p align="center">
-  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9898; <a href="https://shakibamoshiri.github.io/badge-for-git/">create</a>
   &#9899; prerequisite
   &#9898; <a href="#howto">how-to</a>
   &#9898; <a href="#feature">feature</a>
@@ -71,7 +71,7 @@
 
 <h3>if:</h3>
 
- 1. you are a user/member of **Stack-overflow** then first visit: [badge-for-stackoverflow](https://github.com/k-five/badge-for-stackoverflow)
+ 1. you are a user/member of **Stack-overflow** then first visit: [badge-for-stackoverflow](https://github.com/shakibamoshiri/badge-for-stackoverflow)
  2. you are not familiar with **Hex Color** then read the <a href="#color-guide">color-guide</a> at the bottom or just visit <a href="https://www.w3schools.com/colors/colors_fs595.asp">w3schools-color-reference</a>
  3. you have any questions, suggestions, ideas, doubts, critical they are welcome :) <strong>raise an issue</strong>
 
@@ -79,7 +79,7 @@
 <!-- <h3>else</h3> -->
 
 <!-- <h1> -->
-<!--   <a href="https://k-five.github.io/badge-for-git/" >start creating</a> -->
+<!--   <a href="https://shakibamoshiri.github.io/badge-for-git/" >start creating</a> -->
 <!-- </h1> -->
 
 
@@ -88,7 +88,7 @@
 
 <h1 id="howto" align="center" >how to</h1>
 <p align="center">
-  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9898; <a href="https://shakibamoshiri.github.io/badge-for-git/">create</a>
   &#9898; <a href="#prerequisite">prerequisite</a>
   &#9899; how-to
   &#9898; <a href="#feature">feature</a>
@@ -100,7 +100,7 @@
 </p>
 <br>
 
-You will open <a href="https://k-five.github.io/badge-for-git/">the app</a>, try generating a badge based on a style that is available and its command.
+You will open <a href="https://shakibamoshiri.github.io/badge-for-git/">the app</a>, try generating a badge based on a style that is available and its command.
 For example:
 <br>
 
@@ -144,7 +144,7 @@ Paste the code there and save it. It is ready to use on/in your <strong>README.m
 
 <h1 id="feature" align="center">feature</h1>
 <p align="center">
-  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9898; <a href="https://shakibamoshiri.github.io/badge-for-git/">create</a>
   &#9898; <a href="#prerequisite">prerequisite</a>
   &#9898; <a href="#howto">hoe-to</a>
   &#9899; feature
@@ -158,8 +158,8 @@ Paste the code there and save it. It is ready to use on/in your <strong>README.m
 
  - diversity
    - 10 styles for <a href="#diversity">badge</a>
-   - 7 styles for <a href="https://github.com/k-five/badge-for-git/wiki/Samples#button">button</a>
-   - 5 style for <a href="https://github.com/k-five/badge-for-git/wiki/Samples#line">line</a>
+   - 7 styles for <a href="https://github.com/shakibamoshiri/badge-for-git/wiki/Samples#button">button</a>
+   - 5 style for <a href="https://github.com/shakibamoshiri/badge-for-git/wiki/Samples#line">line</a>
  - speed (= fast and straightforward SVG generation) try `badge 1..10 "bfg:bfg"`
  - simplicity (= based on [constant-width font](https://en.wikipedia.org/wiki/Monospaced_font), so no `<scale>`, `<transform>`, `<textLength>`, `<rotate>` )
  - `0%` mouse requirement
@@ -282,7 +282,7 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 
 <h1 id="troubleshooting" align="center" >troubleshooting</h1>
 <p align="center">
-  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9898; <a href="https://shakibamoshiri.github.io/badge-for-git/">create</a>
   &#9898; <a href="#prerequisite">prerequisite</a>
   &#9898; <a href="#howto">hoe-to</a>
   &#9898; <a href="#feature">feature</a>
@@ -331,7 +331,7 @@ In **January 18th 2018** in the <a href="https://discord.gg/HjJCwm5">shields.io 
 
 <h1 id="color_guide" align="center" >color guide</h1>
 <p align="center">
-  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9898; <a href="https://shakibamoshiri.github.io/badge-for-git/">create</a>
   &#9898; <a href="#prerequisite">prerequisite</a>
   &#9898; <a href="#howto">hoe-to</a>
   &#9898; <a href="#feature">feature</a>
@@ -488,7 +488,7 @@ if you are wonder/curious about other colors like **yellow** and **orange**, the
 
 <h1 id="dynamic_version" align="center">dynamic-version</h1>
 <p align="center">
-  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9898; <a href="https://shakibamoshiri.github.io/badge-for-git/">create</a>
   &#9898; <a href="#prerequisite">prerequisite</a>
   &#9898; <a href="#howto">hoe-to</a>
   &#9898; <a href="#feature">feature</a>
@@ -505,7 +505,7 @@ if you are wonder/curious about other colors like **yellow** and **orange**, the
 
 <h1 id="license" align="center">license</h1>
 <p align="center">
-  &#9898; <a href="https://k-five.github.io/badge-for-git/">create</a>
+  &#9898; <a href="https://shakibamoshiri.github.io/badge-for-git/">create</a>
   &#9898; <a href="#prerequisite">prerequisite</a>
   &#9898; <a href="#howto">hoe-to</a>
   &#9898; <a href="#feature">feature</a>
